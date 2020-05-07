@@ -20,6 +20,11 @@ namespace SpringChallenge2020
             all.AppendLine("using System.Text;");
             all.AppendLine("using System.Collections;");
             all.AppendLine("using System.Collections.Generic;");
+            CheckDirectory(directoryInfo, all);
+            TextCopy.Clipboard.SetText(all.ToString());
+        }
+        private static void CheckDirectory(DirectoryInfo directoryInfo, StringBuilder all)
+        {
             foreach (FileInfo fileInfo in directoryInfo.GetFiles().Where(x => x.Name.EndsWith(".cs")))
             {
                 Console.WriteLine("--------------------------------------");
@@ -42,7 +47,8 @@ namespace SpringChallenge2020
                     all.AppendLine(stringBuilder.ToString());
                 }
             }
-            TextCopy.Clipboard.SetText(all.ToString());
+            foreach (DirectoryInfo directory in directoryInfo.GetDirectories())
+                CheckDirectory(directory, all);
         }
     }
 }

@@ -16,16 +16,25 @@ namespace SpringChallenge2020.Core
         }
         public void SetScore(int mine, int yours)
             => this.Score = new Score(mine, yours);
-        public void SetPac(int score, int id, bool isMine, int x, int y, int type, int speedTurnsLeft, int abilityCooldown)
+        public void SetPac(int id, bool isMine, int x, int y, string type, int speedTurnsLeft, int abilityCooldown)
         {
             if (this.Pacs.Count <= id)
                 this.Pacs.Add(new Pac(id));
             this.Pacs[id].IsMine = isMine;
-            this.Pacs[id].Type = (PacType)type;
+            this.Pacs[id].Type = GetType(type);
             this.Pacs[id].SpeedTurnsLeft = speedTurnsLeft;
             this.Pacs[id].AbilityCooldown = abilityCooldown;
             this.Pacs[id].Position = new Position(x, y);
             this.Map.Eat(this.Pacs[id].Position);
+
+            static PacType GetType(string type)
+            {
+                switch (type)
+                {
+                    default:
+                        return PacType.Paper;
+                }
+            }
         }
         public void MoveMine()
         {

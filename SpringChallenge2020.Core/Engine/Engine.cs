@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace SpringChallenge2020.Core
 {
@@ -6,7 +7,8 @@ namespace SpringChallenge2020.Core
     {
         public static Move Move(Manager manager, Pac pac)
         {
-            return new Move("MOVE", pac.Id, new Position(0, 0));
+            (MapType MapType, Position Position) nextMove = manager.Map.GetAround(pac.Position).OrderByDescending(x => x.MapType).FirstOrDefault();
+            return new Move("MOVE", pac.Id, nextMove.Position);
         }
     }
 }

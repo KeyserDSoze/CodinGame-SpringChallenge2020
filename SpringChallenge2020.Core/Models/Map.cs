@@ -41,16 +41,18 @@ namespace SpringChallenge2020.Core
             int yP = position.Y + 1;
             if (xM < 0)
                 xM = this.Width - 1;
-            if (yM < 0)
-                yM = this.Height - 1;
             if (xP >= this.Width)
                 xP = 0;
-            if (yP >= this.Height)
-                yP = 0;
-            yield return (this[new Position(xM, yM)], new Position(xM, yM));
-            yield return (this[new Position(xM, yP)], new Position(xM, yP));
-            yield return (this[new Position(xP, yM)], new Position(xP, yM));
-            yield return (this[new Position(xP, yP)], new Position(xP, yP));
+            if (yM >= 0)
+            {
+                yield return (this[new Position(xM, yM)], new Position(xM, yM));
+                yield return (this[new Position(xP, yM)], new Position(xP, yM));
+            }
+            if (yP < this.Height)
+            {
+                yield return (this[new Position(xM, yP)], new Position(xM, yP));
+                yield return (this[new Position(xP, yP)], new Position(xP, yP));
+            }
         }
     }
 

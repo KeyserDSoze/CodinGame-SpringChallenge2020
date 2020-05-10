@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.Linq;
 using System.Text;
 
@@ -28,8 +29,9 @@ namespace SpringChallenge2020.Core
                 pacs[id].Type = GetType(type);
                 pacs[id].SpeedTurnsLeft = speedTurnsLeft;
                 pacs[id].AbilityCooldown = abilityCooldown;
-                this.Map.Eat(pacs[id].Position);
+                pacs[id].PreviousPosition = pacs[id].Position;
                 pacs[id].Position = new Position(x, y);
+                this.Map.Eat(pacs[id].PreviousPosition);
                 this.Map.Current(pacs[id].Position, isMine);
             }
             static PacType GetType(string type)
@@ -43,8 +45,7 @@ namespace SpringChallenge2020.Core
         }
         public void MoveMine()
         {
-            foreach (Pac pac in this.Pacs)
-                Console.WriteLine(pac.Move(this));
+            Console.WriteLine(string.Join(" | ", this.Pacs.Select(pac => pac.Move(this))));
         }
     }
 }

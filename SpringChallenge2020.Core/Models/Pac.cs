@@ -12,6 +12,7 @@ namespace SpringChallenge2020.Core
         public Position Position { get; set; }
         public int AbilityCooldown { get; set; }
         public int SpeedTurnsLeft { get; set; }
+        public Position PreviousPosition { get; set; } = Position.Default;
         public Pac(int id)
             => this.Id = id;
         private readonly Engine Engine = new Engine();

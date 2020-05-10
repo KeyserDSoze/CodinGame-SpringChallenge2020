@@ -20,5 +20,7 @@ namespace SpringChallenge2020.Core
             => obj.GetHashCode() == this.GetHashCode();
         public override int GetHashCode()
             => X + Y * 10000;
+        public int TaxicabDistance(Position b)
+            => Math.Abs(this.X - b.X) + Math.Abs(this.Y - b.Y);
     }
 }

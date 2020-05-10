@@ -6,26 +6,28 @@ namespace SpringChallenge2020.Core
 {
     public class Engine
     {
-        public Position Next = Position.Default;
+        public Move Next { get; private set; }
         public IList<IMoving> Movings;
         public Engine()
         {
             this.Movings = new List<IMoving>();
             this.Movings.Add(new StartMoving());
             this.Movings.Add(new CrashMoving());
+            this.Movings.Add(new SuperPelletMoving());
+            this.Movings.Add(new AteMoving());
         }
-        public Move Move(Manager manager, Pac pac)
+        public string Move(Manager manager, Pac pac)
         {
             foreach (IMoving moving in this.Movings)
             {
                 Position move = moving.Next(manager, pac);
                 if (!move.Equals(Position.Default))
                 {
-                    Next = move;
+                    Next = new Move(pac.Id, move, manager.Map, pac);
                     break;
                 }
             }
-            return new Move("MOVE", pac.Id, Next);
+            return Next.ToString("MOVE");
         }
     }
 }

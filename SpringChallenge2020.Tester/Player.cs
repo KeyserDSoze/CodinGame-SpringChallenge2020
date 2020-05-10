@@ -106,9 +106,9 @@ namespace SpringChallenge2020.Tester
                 Console.WriteLine();
             }
         }
-        public static void Write(this MapType mapType)
+        public static void Write(this Cell cell)
         {
-            switch (mapType)
+            switch (cell.MapType)
             {
                 default:
                 case MapType.Ate:

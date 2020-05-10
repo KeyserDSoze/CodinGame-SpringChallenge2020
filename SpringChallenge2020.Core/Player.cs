@@ -60,6 +60,8 @@ namespace SpringChallenge2020.Core
                     int x = int.Parse(inputs[0]);
                     int y = int.Parse(inputs[1]);
                     int value = int.Parse(inputs[2]); // amount of points this pellet is worth
+                    if (value > 1)
+                        manager.Map.SetSuperPellet(new Position(x, y));
                 }
 
                 // Write an action using Console.WriteLine()

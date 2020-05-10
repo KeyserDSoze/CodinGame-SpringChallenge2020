@@ -39,7 +39,12 @@ namespace SpringChallenge2020.Core
                 switch (type)
                 {
                     default:
+                    case "PAPER":
                         return PacType.Paper;
+                    case "SCISSOR":
+                        return PacType.Scissor;
+                    case "ROCK":
+                        return PacType.Rock;
                 }
             }
         }

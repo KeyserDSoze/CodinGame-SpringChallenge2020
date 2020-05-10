@@ -15,7 +15,7 @@ namespace SpringChallenge2020.Core
         public Position PreviousPosition { get; set; } = Position.Default;
         public Pac(int id)
             => this.Id = id;
-        private readonly Engine Engine = new Engine();
+        public Engine Engine { get; } = new Engine();
         public string Move(Manager manager)
             => Engine.Move(manager, this).ToString();
     }

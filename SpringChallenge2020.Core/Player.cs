@@ -55,7 +55,7 @@ namespace SpringChallenge2020.Core
                 for (int i = 0; i < visiblePelletCount; i++)
                 {
                     input = Console.ReadLine();
-                    Log(input);
+                    LogPoint(input);
                     inputs = input.Split(' ');
                     int x = int.Parse(inputs[0]);
                     int y = int.Parse(inputs[1]);
@@ -71,6 +71,10 @@ namespace SpringChallenge2020.Core
         static void Log(string input)
         {
             Console.Error.WriteLine($"Parse: {input}");
+        }
+        static void LogPoint(string input)
+        {
+            Console.Error.WriteLine($"PP: {input}");
         }
     }
 }

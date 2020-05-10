@@ -15,5 +15,10 @@ namespace SpringChallenge2020.Core
         }
         public override string ToString()
             => $"{this.X} {this.Y}";
+        public static Position Default = new Position(-1, -1);
+        public override bool Equals(object obj)
+            => obj.GetHashCode() == this.GetHashCode();
+        public override int GetHashCode()
+            => X + Y * 10000;
     }
 }

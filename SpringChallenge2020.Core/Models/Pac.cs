@@ -14,8 +14,8 @@ namespace SpringChallenge2020.Core
         public int SpeedTurnsLeft { get; set; }
         public Pac(int id)
             => this.Id = id;
-        public string Move(Manager manager) 
+        private readonly Engine Engine = new Engine();
+        public string Move(Manager manager)
             => Engine.Move(manager, this).ToString();
     }
-    
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace SpringChallenge2020.Core
@@ -7,9 +8,11 @@ namespace SpringChallenge2020.Core
     public sealed class Map
     {
         private readonly MapType[,] InternalMap;
-        private readonly int Width;
-        private readonly int Height;
+        public int Width { get; }
+        public int Height { get; }
         public MapType this[Position position] => this.InternalMap[position.X, position.Y];
+        public (MapType Type, Position Position) GetFloor(Position position)
+            => (this[position], position);
         public Map(int x, int y)
         {
             this.InternalMap = new MapType[x, y];
@@ -31,9 +34,11 @@ namespace SpringChallenge2020.Core
         }
         public void Eat(Position position)
             => this.InternalMap[position.X, position.Y] = MapType.Ate;
+        public void Current(Position position, bool isMine)
+            => this.InternalMap[position.X, position.Y] = isMine ? MapType.MyPac : MapType.EnemyPac;
         public void SetSuperPellet(Position position)
             => this.InternalMap[position.X, position.Y] = MapType.SuperPellet;
-        public IEnumerable<(MapType MapType, Position Position)> GetAround(Position position)
+        public IEnumerable<Position> GetNextPossibles(Position position)
         {
             int xM = position.X - 1;
             int xP = position.X + 1;
@@ -43,18 +48,29 @@ namespace SpringChallenge2020.Core
                 xM = this.Width - 1;
             if (xP >= this.Width)
                 xP = 0;
+            if (this.InternalMap[xM, position.Y] >= 0)
+                yield return new Position(xM, position.Y);
+            if (this.InternalMap[xP, position.Y] >= 0)
+                yield return new Position(xP, position.Y);
             if (yM >= 0)
-            {
-                yield return (this[new Position(xM, yM)], new Position(xM, yM));
-                yield return (this[new Position(xP, yM)], new Position(xP, yM));
-            }
+                yield return new Position(position.X, yM);
             if (yP < this.Height)
-            {
-                yield return (this[new Position(xM, yP)], new Position(xM, yP));
-                yield return (this[new Position(xP, yP)], new Position(xP, yP));
-            }
+                yield return new Position(position.Y, yP);
         }
+        public IEnumerable<(MapType MapType, Position Position)> GetAround(Position position)
+        {
+            foreach (var t in GetNextPossibles(position))
+                yield return (this[t], t);
+        }
+        public IEnumerable<(MapType MapType, Position Position)> GetEatable()
+        {
+            for (int i = 0; i < this.Width; i++)
+                for (int j = 0; j < this.Height; j++)
+                    if (this.InternalMap[i, j] >= 0)
+                        yield return (this.InternalMap[i, j], new Position(i, j));
+        }
+
+        public bool IsAte(Position position)
+            => this[position] == MapType.Ate;
     }
-
-
 }

@@ -28,8 +28,9 @@ namespace SpringChallenge2020.Core
                 pacs[id].Type = GetType(type);
                 pacs[id].SpeedTurnsLeft = speedTurnsLeft;
                 pacs[id].AbilityCooldown = abilityCooldown;
-                pacs[id].Position = new Position(x, y);
                 this.Map.Eat(pacs[id].Position);
+                pacs[id].Position = new Position(x, y);
+                this.Map.Current(pacs[id].Position, isMine);
             }
             static PacType GetType(string type)
             {
@@ -42,7 +43,7 @@ namespace SpringChallenge2020.Core
         }
         public void MoveMine()
         {
-            foreach (Pac pac in this.Pacs.Where(x => x.IsMine))
+            foreach (Pac pac in this.Pacs)
                 Console.WriteLine(pac.Move(this));
         }
     }

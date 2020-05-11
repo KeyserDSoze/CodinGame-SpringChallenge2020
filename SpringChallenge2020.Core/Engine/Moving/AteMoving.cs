@@ -5,14 +5,15 @@ using System.Text;
 
 namespace SpringChallenge2020.Core
 {
-    public class AteMoving : IMoving
+    public class AteMoving : IIntelligence
     {
         public Position Next(Manager manager, Pac pac)
         {
             if (pac.Engine.Moves != null)
-                if (pac.Position.Equals(pac.Engine.Moves) || pac.Engine.Moves.Equals(Position.Default) || manager.Map.IsAte(pac.Engine.Moves.Last))
+                //check current is the pac position or the last is ate
+                if (pac.Engine.Moves.HasNext() || manager.Map.IsAte(pac.Engine.Moves.Last))
                 {
-                    return manager.Map.GetEatable().OrderBy(x => Math.Abs(pac.Position.X - x.Position.X) + Math.Abs(pac.Position.Y - x.Position.Y)).FirstOrDefault().Position;
+                    return manager.Map.GetEatable().Where(x => x.MapType >= MapType.Pellet).OrderBy(x => x.Position.TaxicabDistance(pac.Position, manager.Map)).FirstOrDefault().Position;
                 }
             return Position.Default;
         }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SpringChallenge2020.Core
 {
-    public class StartMoving : IMoving
+    public class StartMoving : IIntelligence
     {
         public Position Next(Manager manager, Pac pac)
         {

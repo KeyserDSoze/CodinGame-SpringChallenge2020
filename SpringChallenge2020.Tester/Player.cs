@@ -32,6 +32,7 @@ namespace SpringChallenge2020.Tester
             => Points[CounterPoints++];
         static void Main(string[] args)
         {
+            Console.WriteLine("Insert the stop debug");
             int turn = int.Parse(Console.ReadLine());
             string[] inputs;
             string input = Next();

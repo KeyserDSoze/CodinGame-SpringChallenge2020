@@ -6,7 +6,7 @@ namespace SpringChallenge2020.Core
 {
     public class Engine
     {
-        public Move Next { get; private set; }
+        public Move Moves { get; private set; }
         public IList<IMoving> Movings;
         public Engine()
         {
@@ -23,11 +23,11 @@ namespace SpringChallenge2020.Core
                 Position move = moving.Next(manager, pac);
                 if (!move.Equals(Position.Default))
                 {
-                    Next = new Move(pac.Id, move, manager.Map, pac);
+                    Moves = new Move(pac.Id, move, manager.Map, pac);
                     break;
                 }
             }
-            return Next.ToString("MOVE");
+            return Moves.Next("MOVE");
         }
     }
 }

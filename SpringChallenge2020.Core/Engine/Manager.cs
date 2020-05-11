@@ -31,7 +31,8 @@ namespace SpringChallenge2020.Core
                 pacs[id].AbilityCooldown = abilityCooldown;
                 pacs[id].PreviousPosition = pacs[id].Position;
                 pacs[id].Position = new Position(x, y);
-                this.Map.Eat(pacs[id].PreviousPosition);
+                if (!pacs[id].PreviousPosition.Equals(Position.Default))
+                    this.Map.Eat(pacs[id].PreviousPosition);
                 this.Map.Current(pacs[id].Position, isMine);
             }
             static PacType GetType(string type)

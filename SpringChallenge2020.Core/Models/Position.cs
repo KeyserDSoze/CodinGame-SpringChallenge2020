@@ -17,10 +17,17 @@ namespace SpringChallenge2020.Core
             => $"{this.X} {this.Y}";
         public static Position Default = new Position(-1, -1);
         public override bool Equals(object obj)
-            => obj.GetHashCode() == this.GetHashCode();
+            => (obj?.GetHashCode() ?? -1) == this.GetHashCode();
         public override int GetHashCode()
             => X + Y * 10000;
-        public int TaxicabDistance(Position b)
-            => Math.Abs(this.X - b.X) + Math.Abs(this.Y - b.Y);
+        public int TaxicabDistance(Position b, Map map)
+        {
+            int dh = Math.Abs(this.Y - b.Y);
+            int dv = Math.Min(
+                Math.Abs(this.X - b.X),
+                Math.Min(this.X + map.Width - b.X, b.X + map.Width - this.X)
+            );
+            return dv + dh;
+        }
     }
 }

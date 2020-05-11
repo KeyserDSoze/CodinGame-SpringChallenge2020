@@ -40,7 +40,7 @@ namespace SpringChallenge2020.Core
             if (this[position].MapType > MapType.Ate)
             {
                 this.InternalMap[position.X, position.Y].ChangeType(MapType.SuperPellet);
-                Position theOpposite = new Position(this.Width - position.X, position.Y);
+                Position theOpposite = new Position(this.Width - 1 - position.X, position.Y);
                 if (this[theOpposite].MapType > MapType.Ate)
                     this.InternalMap[theOpposite.X, theOpposite.Y].ChangeType(MapType.SuperPellet);
             }
@@ -56,13 +56,13 @@ namespace SpringChallenge2020.Core
                 xM = this.Width - 1;
             if (xP >= this.Width)
                 xP = 0;
-            if (this.InternalMap[xM, position.Y].MapType >= MapType.Ate)
+            if (this.InternalMap[xM, position.Y].MapType > MapType.Wall)
                 yield return new Position(xM, position.Y);
-            if (this.InternalMap[xP, position.Y].MapType >= MapType.Ate)
+            if (this.InternalMap[xP, position.Y].MapType > MapType.Wall)
                 yield return new Position(xP, position.Y);
-            if (yM >= 0 && this.InternalMap[position.X, yM].MapType >= MapType.Ate)
+            if (yM >= 0 && this.InternalMap[position.X, yM].MapType > MapType.Wall)
                 yield return new Position(position.X, yM);
-            if (yP < this.Height && this.InternalMap[position.X, yP].MapType >= MapType.Ate)
+            if (yP < this.Height && this.InternalMap[position.X, yP].MapType > MapType.Wall)
                 yield return new Position(position.X, yP);
         }
         public IEnumerable<Cell> GetAround(Position position)
@@ -76,6 +76,16 @@ namespace SpringChallenge2020.Core
                 for (int j = 0; j < this.Height; j++)
                     if (this.InternalMap[i, j].MapType >= MapType.Ate)
                         yield return this.InternalMap[i, j];
+        }
+        public IEnumerable<Cell> GetClosedWay()
+        {
+            for (int i = 0; i < this.Width; i++)
+                for (int j = 0; j < this.Height; j++)
+                {
+                    var arounds = this.GetAround(new Position(i, j)).ToList();
+                    if (arounds.Count == arounds.Where(x => x.MapType == MapType.Wall).Count() + 1)
+                        yield return this.InternalMap[i, j];
+                }
         }
 
         public bool IsAte(Position position)

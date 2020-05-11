@@ -9,7 +9,7 @@ namespace SpringChallenge2020.Core
     {
         public Position Next(Manager manager, Pac pac)
         {
-            var eatable = manager.Map.GetEatable().Where(x => x.MapType > MapType.Pellet).Skip(pac.Id).FirstOrDefault();
+            var eatable = manager.Map.GetEatable().Where(x => x.MapType > MapType.Pellet && !x.IsOnPath).OrderBy(x => x.Position.TaxicabDistance(pac.Position, manager.Map)).FirstOrDefault();
             if (eatable != null)
                 return eatable.Position;
             return Position.Default;

@@ -8,6 +8,7 @@ namespace SpringChallenge2020.Core
     {
         public MapType MapType { get; private set; }
         public Position Position { get; }
+        public bool IsOnPath { get; set; }
         public Cell(MapType mapType, Position position)
         {
             this.MapType = mapType;

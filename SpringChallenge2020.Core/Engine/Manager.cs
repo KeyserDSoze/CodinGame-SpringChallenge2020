@@ -9,7 +9,7 @@ namespace SpringChallenge2020.Core
     public class Manager
     {
         public List<Pac> Pacs { get; } = new List<Pac>();
-        public List<Pac> EnemyPacs { get; } = new List<Pac>();
+        public List<Pac> EnemyPacs { get; private set; } = new List<Pac>();
         public Map Map { get; }
         public Score Score { get; set; }
         public Manager(int x, int y)
@@ -18,22 +18,27 @@ namespace SpringChallenge2020.Core
         }
         public void SetScore(int mine, int yours)
             => this.Score = new Score(mine, yours);
+        public void NewTurn()
+        {
+            this.EnemyPacs = new List<Pac>();
+        }
         public void SetPac(int id, bool isMine, int x, int y, string type, int speedTurnsLeft, int abilityCooldown)
         {
             Set(isMine ? this.Pacs : this.EnemyPacs);
             void Set(List<Pac> pacs)
             {
-                if (pacs.Count <= id)
+                if (!pacs.Any(x => x.Id == id))
                     pacs.Add(new Pac(id));
-                pacs[id].IsMine = isMine;
-                pacs[id].Type = GetType(type);
-                pacs[id].SpeedTurnsLeft = speedTurnsLeft;
-                pacs[id].AbilityCooldown = abilityCooldown;
-                pacs[id].PreviousPosition = pacs[id].Position;
-                pacs[id].Position = new Position(x, y);
-                if (!pacs[id].PreviousPosition.Equals(Position.Default))
-                    this.Map.Eat(pacs[id].PreviousPosition);
-                this.Map.Current(pacs[id].Position, isMine);
+                Pac pac = pacs.FirstOrDefault(x => x.Id == id);
+                pac.IsMine = isMine;
+                pac.Type = GetType(type);
+                pac.SpeedTurnsLeft = speedTurnsLeft;
+                pac.AbilityCooldown = abilityCooldown;
+                pac.PreviousPosition = pac.Position;
+                pac.Position = new Position(x, y);
+                if (!pac.PreviousPosition.Equals(Position.Default))
+                    this.Map.Eat(pac.PreviousPosition);
+                this.Map.Current(pac.Position, isMine);
             }
             static PacType GetType(string type)
             {

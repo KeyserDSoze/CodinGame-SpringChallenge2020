@@ -9,7 +9,7 @@ namespace SpringChallenge2020.Core
     {
         public Position Next(Manager manager, Pac pac)
         {
-            if (pac.Position.Equals(pac.PreviousPosition))
+            if (manager.Pacs.Where(x => x != pac).Any(x => x.Position.TaxicabDistance(pac.Position, manager.Map) <= 2))
             {
                 var eatable = manager.Map.GetEatable().ToList();
                 return eatable[new Random().Next(eatable.Count)].Position;

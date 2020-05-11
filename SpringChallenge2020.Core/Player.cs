@@ -26,6 +26,7 @@ namespace SpringChallenge2020.Core
             // game loop
             while (true)
             {
+                manager.NewTurn();
                 input = Console.ReadLine();
                 Log(input);
                 inputs = input.Split(' ');

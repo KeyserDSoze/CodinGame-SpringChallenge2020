@@ -15,20 +15,31 @@ namespace SpringChallenge2020.Core
             => this.Path.FirstOrDefault();
         private int CurrentIndex = 0;
         private readonly IList<Position> Path;
-        public Move(int id, Position position, Map map, Pac pac)
+        public Move(Position position, Map map, Pac pac)
         {
-            this.Id = id;
+            this.Id = pac.Id;
             this.Path = new PathFinder().FindPath(map, pac.Position, position).Path;
-            this.CurrentIndex = this.Path.Count - 1;
+            this.CurrentIndex = this.Path.Count - 2;
+            this.Set(map);
         }
-        public string Next(string power)
-            => this.Path[this.CurrentIndex--].ToMoveString(power, this.Id);
+        public string Next()
+            => this.Path[this.CurrentIndex--].ToMoveString(this.Id);
         public bool HasNext()
             => this.CurrentIndex < 0;
+        public void Reset(Map map)
+        {
+            foreach (Position position in Path)
+                map[position].IsOnPath = false;
+        }
+        private void Set(Map map)
+        {
+            foreach (Position position in Path)
+                map[position].IsOnPath = true;
+        }
     }
     public static class MoveExtensions
     {
-        public static string ToMoveString(this Position position, string power, int id)
-            => $"{power} {id} {position}";
+        public static string ToMoveString(this Position position, int id)
+            => $"MOVE {id} {position}";
     }
 }

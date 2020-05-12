@@ -21,8 +21,9 @@ namespace SpringChallenge2020.Core
             ArtificialIntelligenceResult result = this.AI.Run(manager, pac);
             if (result.HasPosition)
             {
-                pac.AIPositions.Last().Visited = true;
-                pac.AIPositions.Add(new UnderVisiting() { Position = result.Position });
+                if (pac.AIPositions.Count > 0)
+                    pac.AIPositions.Last().Visited = true;
+                pac.AIPositions.Add(new UnderVisiting() { Position = manager.Map[result.Position] });
                 Moves = result.ToMove(manager, pac);
             }
             if (result.HasPower)

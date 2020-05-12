@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace SpringChallenge2020.Core
@@ -24,10 +25,12 @@ namespace SpringChallenge2020.Core
         public Engine Engine { get; } = new Engine();
         public string Move(Manager manager)
             => Engine.Move(manager, this);
+        public bool AreVisitingSuperPellet()
+            => this.AIPositions.LastOrDefault()?.Position.MapType == MapType.SuperPellet;
     }
     public class UnderVisiting
     {
-        public Position Position { get; set; }
+        public Cell Position { get; set; }
         public bool Visited { get; set; }
     }
 }

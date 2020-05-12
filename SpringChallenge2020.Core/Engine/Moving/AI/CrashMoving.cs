@@ -9,7 +9,7 @@ namespace SpringChallenge2020.Core
     {
         public override ArtificialIntelligenceResult Run(Manager manager, Pac pac)
         {
-            if (manager.Pacs.Where(x => x != pac).Any(x => x.Position.TaxicabDistance(pac.Position, manager.Map) <= 2))
+            if (manager.Pacs.Where(x => x != pac).Any(x => x.Position.TaxicabDistance(pac.Position, manager.Map) <= 2) && !pac.AreVisitingSuperPellet())
             {
                 var eatable = manager.Map.GetEatable().ToList();
                 return new ArtificialIntelligenceResult(eatable[new Random().Next(eatable.Count)].Position);

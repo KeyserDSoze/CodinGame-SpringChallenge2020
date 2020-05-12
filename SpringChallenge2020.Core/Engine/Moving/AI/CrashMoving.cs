@@ -5,16 +5,16 @@ using System.Text;
 
 namespace SpringChallenge2020.Core
 {
-    public class CrashMoving : IIntelligence
+    public class CrashMoving : ArtificialIntelligence
     {
-        public Position Next(Manager manager, Pac pac)
+        public override ArtificialIntelligenceResult Run(Manager manager, Pac pac)
         {
             if (manager.Pacs.Where(x => x != pac).Any(x => x.Position.TaxicabDistance(pac.Position, manager.Map) <= 2))
             {
                 var eatable = manager.Map.GetEatable().ToList();
-                return eatable[new Random().Next(eatable.Count)].Position;
+                return new ArtificialIntelligenceResult(eatable[new Random().Next(eatable.Count)].Position);
             }
-            return Position.Default;
+            return this.InvokeNext(manager, pac);
         }
     }
 }

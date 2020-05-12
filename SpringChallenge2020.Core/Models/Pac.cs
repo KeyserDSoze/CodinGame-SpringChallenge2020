@@ -13,6 +13,7 @@ namespace SpringChallenge2020.Core
         public int AbilityCooldown { get; set; }
         public int SpeedTurnsLeft { get; set; }
         public Position PreviousPosition { get; set; } = Position.Default;
+        public List<UnderVisiting> AIPositions { get; } = new List<UnderVisiting>();
         public Position ForescastPosition()
         {
             return default;
@@ -23,5 +24,10 @@ namespace SpringChallenge2020.Core
         public Engine Engine { get; } = new Engine();
         public string Move(Manager manager)
             => Engine.Move(manager, this);
+    }
+    public class UnderVisiting
+    {
+        public Position Position { get; set; }
+        public bool Visited { get; set; }
     }
 }

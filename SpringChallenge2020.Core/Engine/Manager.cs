@@ -38,7 +38,8 @@ namespace SpringChallenge2020.Core
                 pac.Position = new Position(x, y);
                 if (!pac.PreviousPosition.Equals(Position.Default))
                     this.Map.Eat(pac.PreviousPosition);
-                this.Map.Current(pac.Position, isMine);
+                if (isMine)
+                    this.Map.Current(pac.Position, isMine);
             }
             static PacType GetType(string type)
             {

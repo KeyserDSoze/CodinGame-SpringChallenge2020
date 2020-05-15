@@ -13,7 +13,8 @@ namespace SpringChallenge2020.Core
                 //check current is the pac position or the last is ate
                 if (pac.Engine.Moves.HasNext() || manager.Map.IsAte(pac.Engine.Moves.Last))
                 {
-                    return new ArtificialIntelligenceResult(manager.Map.GetClosedWay().Where(x => x.MapType >= MapType.Pellet).OrderBy(x => x.Position.TaxicabDistance(pac.Position, manager.Map)).FirstOrDefault().Position);
+                    var t = manager.Map.GetClosedWay().Where(x => x.MapType >= MapType.Pellet).OrderBy(x => x.Position.TaxicabDistance(pac.Position, manager.Map)).ToList();
+                    return new ArtificialIntelligenceResult(t.FirstOrDefault().Position);
                 }
             return this.InvokeNext(manager, pac);
         }

@@ -1,441 +1,2379 @@
 ﻿Standard Error Stream:
-Parse: 31 15
-Parse: ###############################
-Parse: #####   #   #     #   #   #####
-Parse: ##### ##### # ### # ##### #####
-Parse:                                
-Parse: ### ### ##### ### ##### ### ###
-Parse:       # #             # #      
-Parse: ##### # # # # ### # # # # #####
-Parse:           # #     # #          
-Parse: ##### ### # ### ### # ### #####
-Parse: #       # #         # #       #
-Parse: # # ### # ### ### ### # ### # #
-Parse: # #   # #     ###     # #   # #
-Parse: # ### # # # ####### # # # ### #
-Parse: # #       # ####### #       # #
-Parse: ###############################
+Parse: 33 16
+Parse: #################################
+Parse:     # # ### #       # ### # #    
+Parse: ### # # ### ### # ### ### # # ###
+Parse: #   # #     #   #   #     # #   #
+Parse: # # # ### # # # # # # # ### # # #
+Parse: # #       #   #   #   #       # #
+Parse: # ### ### # # # # # # # ### ### #
+Parse: # #   #   #   #   #   #   #   # #
+Parse: # # # # # ### ##### ### # # # # #
+Parse: #   #   #               #   #   #
+Parse: ### # # ##### # # # ##### # # ###
+Parse:     #         #   #         #    
+Parse: ### ### ### # ##### # ### ### ###
+Parse:         #     #####     #        
+Parse: ##### # # # # ##### # # # # #####
+Parse: #################################
 Parse: 0 0
-Parse: 5
-Parse: 0 1 18 9 ROCK 0 0
-Parse: 0 0 12 9 ROCK 0 0
-Parse: 1 1 23 7 PAPER 0 0
-Parse: 1 0 7 7 PAPER 0 0
-Parse: 2 1 19 12 SCISSORS 0 0
-Parse: 35
-PP: 17 9 1
-PP: 16 9 1
-PP: 15 9 1
-PP: 14 9 1
-PP: 13 9 1
-PP: 11 9 1
-PP: 19 9 1
-PP: 22 7 1
-PP: 21 7 1
-PP: 24 7 1
-PP: 25 7 1
-PP: 26 7 1
-PP: 27 7 1
-PP: 28 7 1
-PP: 29 7 1
-PP: 30 7 1
-PP: 0 7 1
-PP: 1 7 1
-PP: 2 7 1
-PP: 3 7 1
-PP: 4 7 1
-PP: 5 7 1
-PP: 6 7 1
-PP: 8 7 1
-PP: 9 7 1
-PP: 23 6 1
-PP: 23 5 1
-PP: 23 4 1
-PP: 23 3 1
-PP: 19 11 1
-PP: 19 13 1
-PP: 13 4 10
-PP: 17 4 10
-PP: 5 11 10
-PP: 25 11 10
-Standard Output Stream:
-MOVE 0 19 9 | MOVE 1 24 7 | MOVE 2 19 11
-01
-10
-Standard Output Stream:
-MOVE 0 11 9|MOVE 1 6 7|MOVE 2 11 11|
-Game Summary:
-Keyser_D_Soze:
-- Pac 0 moved to (19, 9).
-- Pac 1 moved to (24, 7).
-- Pac 2 moved to (19, 11).
-Inky:
-- Pac 0 moved to (11, 9).
-- Pac 1 moved to (6, 7).
-- Pac 2 moved to (11, 11).
-Standard Error Stream:
-Parse: 3 3
-Parse: 5
-Parse: 0 1 19 9 ROCK 0 0
-Parse: 0 0 11 9 ROCK 0 0
-Parse: 1 1 24 7 PAPER 0 0
-Parse: 1 0 6 7 PAPER 0 0
-Parse: 2 1 19 11 SCISSORS 0 0
-Parse: 34
-PP: 17 9 1
-PP: 16 9 1
-PP: 15 9 1
-PP: 14 9 1
-PP: 13 9 1
-PP: 19 8 1
-PP: 19 7 1
-PP: 19 6 1
-PP: 19 5 1
-PP: 22 7 1
-PP: 21 7 1
-PP: 25 7 1
-PP: 26 7 1
-PP: 27 7 1
-PP: 28 7 1
-PP: 29 7 1
-PP: 30 7 1
-PP: 0 7 1
-PP: 1 7 1
-PP: 2 7 1
-PP: 3 7 1
-PP: 4 7 1
-PP: 5 7 1
-PP: 8 7 1
-PP: 9 7 1
-PP: 18 11 1
-PP: 17 11 1
-PP: 20 11 1
-PP: 21 11 1
-PP: 19 13 1
-PP: 13 4 10
-PP: 17 4 10
-PP: 5 11 10
-PP: 25 11 10
-Standard Output Stream:
-MOVE 0 18 9 | MOVE 1 25 7 | MOVE 2 20 11
-02
-10
-Standard Output Stream:
-MOVE 0 11 8|MOVE 1 5 7|MOVE 2 12 11|
-Game Summary:
-Keyser_D_Soze:
-- Pac 0 moved to (18, 9).
-- Pac 1 moved to (25, 7).
-- Pac 2 moved to (20, 11).
-Inky:
-- Pac 0 moved to (11, 8).
-- Pac 1 moved to (5, 7).
-- Pac 2 moved to (12, 11).
-Standard Error Stream:
-Parse: 5 6
-Parse: 4
-Parse: 0 1 18 9 ROCK 0 0
-Parse: 1 1 25 7 PAPER 0 0
-Parse: 1 0 5 7 PAPER 0 0
-Parse: 2 1 20 11 SCISSORS 0 0
-Parse: 30
-PP: 17 9 1
-PP: 16 9 1
-PP: 15 9 1
-PP: 14 9 1
-PP: 13 9 1
-PP: 22 7 1
-PP: 21 7 1
-PP: 26 7 1
-PP: 27 7 1
-PP: 28 7 1
-PP: 29 7 1
-PP: 30 7 1
-PP: 0 7 1
-PP: 1 7 1
-PP: 2 7 1
-PP: 3 7 1
-PP: 4 7 1
-PP: 8 7 1
-PP: 9 7 1
-PP: 25 6 1
-PP: 25 5 1
-PP: 25 8 1
-PP: 25 9 1
-PP: 18 11 1
-PP: 17 11 1
-PP: 21 11 1
-PP: 13 4 10
-PP: 17 4 10
-PP: 5 11 10
-PP: 25 11 10
-Standard Output Stream:
-MOVE 0 17 9 | MOVE 1 25 8 | MOVE 2 21 11
-03
-10
-Standard Output Stream:
-MOVE 0 11 7|MOVE 1 5 6|MOVE 2 13 11|
-Game Summary:
-Keyser_D_Soze:
-- Pac 0 moved to (17, 9).
-- Pac 1 moved to (25, 8).
-- Pac 2 moved to (21, 11).
-Inky:
-- Pac 0 moved to (11, 7).
-- Pac 1 moved to (5, 6).
-- Pac 2 moved to (13, 11).
-Standard Error Stream:
-Parse: 8 9
 Parse: 3
-Parse: 0 1 17 9 ROCK 0 0
-Parse: 1 1 25 8 PAPER 0 0
-Parse: 2 1 21 11 SCISSORS 0 0
-Parse: 22
-PP: 16 9 1
-PP: 15 9 1
-PP: 14 9 1
-PP: 13 9 1
-PP: 17 10 1
-PP: 17 11 1
-PP: 25 6 1
-PP: 25 5 1
-PP: 25 9 1
-PP: 18 11 1
-PP: 21 10 1
-PP: 21 9 1
-PP: 21 8 1
-PP: 21 7 1
-PP: 21 6 1
-PP: 21 5 1
-PP: 21 12 1
-PP: 21 13 1
-PP: 13 4 10
-PP: 17 4 10
-PP: 5 11 10
-PP: 25 11 10
-Standard Output Stream:
-MOVE 0 16 9 | MOVE 1 25 9 | MOVE 2 21 10
-04
-10
-Standard Output Stream:
-MOVE 0 11 6|MOVE 1 5 5|MOVE 2 13 10|
-Game Summary:
-Keyser_D_Soze:
-- Pac 0 moved to (16, 9).
-- Pac 1 moved to (25, 9).
-- Pac 2 moved to (21, 10).
-Inky:
-- Pac 0 moved to (11, 6).
-- Pac 1 moved to (5, 5).
-- Pac 2 moved to (13, 10).
-Standard Error Stream:
-Parse: 11 12
-Parse: 3
-Parse: 0 1 16 9 ROCK 0 0
-Parse: 1 1 25 9 PAPER 0 0
-Parse: 2 1 21 10 SCISSORS 0 0
-Parse: 22
-PP: 15 9 1
-PP: 14 9 1
-PP: 13 9 1
-PP: 24 9 1
-PP: 23 9 1
+Parse: 0 1 27 9 ROCK 0 0
+Parse: 1 1 5 13 PAPER 0 0
+Parse: 1 0 27 13 PAPER 0 0
+Parse: 31
 PP: 26 9 1
-PP: 27 9 1
-PP: 28 9 1
-PP: 29 9 1
-PP: 25 6 1
-PP: 25 5 1
-PP: 21 9 1
-PP: 21 8 1
-PP: 21 7 1
-PP: 21 6 1
-PP: 21 5 1
-PP: 21 12 1
-PP: 21 13 1
-PP: 13 4 10
-PP: 17 4 10
-PP: 5 11 10
-PP: 25 11 10
-Standard Output Stream:
-MOVE 0 15 9 | MOVE 1 26 9 | MOVE 2 21 9
-05
-10
-Standard Output Stream:
-MOVE 0 11 5|MOVE 1 4 5|MOVE 2 13 9|
-Game Summary:
-Keyser_D_Soze:
-- Pac 0 moved to (15, 9).
-- Pac 1 moved to (26, 9).
-- Pac 2 moved to (21, 9).
-Inky:
-- Pac 0 moved to (11, 5).
-- Pac 1 moved to (4, 5).
-- Pac 2 moved to (13, 9).
-Standard Error Stream:
-Parse: 14 15
-Parse: 4
-Parse: 0 1 15 9 ROCK 0 0
-Parse: 1 1 26 9 PAPER 0 0
-Parse: 2 1 21 9 SCISSORS 0 0
-Parse: 2 0 13 9 SCISSORS 0 0
-Parse: 18
-PP: 14 9 1
-PP: 15 8 1
-PP: 15 7 1
-PP: 24 9 1
-PP: 23 9 1
-PP: 27 9 1
-PP: 28 9 1
-PP: 29 9 1
-PP: 21 8 1
-PP: 21 7 1
-PP: 21 6 1
-PP: 21 5 1
-PP: 21 12 1
-PP: 21 13 1
-PP: 13 4 10
-PP: 17 4 10
-PP: 5 11 10
-PP: 25 11 10
-Standard Output Stream:
-MOVE 0 14 9 | MOVE 1 27 9 | MOVE 2 21 8
-06
-10
-Standard Output Stream:
-MOVE 0 12 5|MOVE 1 3 5|SWITCH 2 PAPER|
-Game Summary:
-Keyser_D_Soze:
-- Pac 0 moved to (14, 9).
-- Pac 1 moved to (27, 9).
-- Pac 2 moved to (21, 8).
-Inky:
-- Pac 0 moved to (12, 5).
-- Pac 1 moved to (3, 5).
-- Pac 2 switch to PAPER form.
-Standard Error Stream:
-Parse: 17 17
-Parse: 4
-Parse: 0 1 14 9 ROCK 0 0
-Parse: 1 1 27 9 PAPER 0 0
-Parse: 2 1 21 8 SCISSORS 0 0
-Parse: 2 0 13 9 PAPER 0 9
-Parse: 15
-PP: 24 9 1
-PP: 23 9 1
-PP: 28 9 1
-PP: 29 9 1
+PP: 25 9 1
+PP: 27 8 1
+PP: 27 7 1
+PP: 27 6 1
+PP: 27 5 1
+PP: 27 4 1
+PP: 27 3 1
+PP: 27 2 1
+PP: 27 1 1
 PP: 27 10 1
 PP: 27 11 1
-PP: 21 7 1
-PP: 21 6 1
-PP: 21 5 1
-PP: 21 12 1
-PP: 21 13 1
-PP: 13 4 10
-PP: 17 4 10
-PP: 5 11 10
-PP: 25 11 10
+PP: 4 13 1
+PP: 3 13 1
+PP: 2 13 1
+PP: 1 13 1
+PP: 0 13 1
+PP: 32 13 1
+PP: 31 13 1
+PP: 30 13 1
+PP: 29 13 1
+PP: 28 13 1
+PP: 26 13 1
+PP: 25 13 1
+PP: 6 13 1
+PP: 7 13 1
+PP: 5 14 1
+PP: 9 5 10
+PP: 23 5 10
+PP: 0 11 10
+PP: 32 11 10
 Standard Output Stream:
-SWITCH 0 SCISSORS | MOVE 1 27 10 | MOVE 2 21 7
-07
-10
+MOVE 0 27 8 | MOVE 1 4 13
+001
+131
 Standard Output Stream:
-MOVE 0 13 5|MOVE 1 2 5|MOVE 2 15 8|
+MOVE 0 5 8|MOVE 1 28 13|
 Game Summary:
 Keyser_D_Soze:
-- Pac 0 switch to SCISSORS form.
-- Pac 1 moved to (27, 10).
-- Pac 2 moved to (21, 7).
+- Pac 0 moved to (27, 8).
+- Pac 1 moved to (4, 13).
 Inky:
-- Pac 0 moved to (13, 5).
-- Pac 1 moved to (2, 5).
-- Pac 2 moved to (14, 9).
-- Pac 2 has died.
+- Pac 0 moved to (5, 8).
+- Pac 1 moved to (28, 13).
 Standard Error Stream:
-Parse: 19 19
+Parse: 2 2
 Parse: 3
-Parse: 0 1 14 9 SCISSORS 0 9
-Parse: 1 1 27 10 PAPER 0 0
-Parse: 2 1 21 7 SCISSORS 0 0
-Parse: 22
-PP: 27 11 1
-PP: 22 7 1
-PP: 26 7 1
+Parse: 0 1 27 8 ROCK 0 0
+Parse: 1 1 4 13 PAPER 0 0
+Parse: 1 0 28 13 PAPER 0 0
+Parse: 25
 PP: 27 7 1
+PP: 27 6 1
+PP: 27 5 1
+PP: 27 4 1
+PP: 27 3 1
+PP: 27 2 1
+PP: 27 1 1
+PP: 27 10 1
+PP: 27 11 1
+PP: 3 13 1
+PP: 2 13 1
+PP: 1 13 1
+PP: 0 13 1
+PP: 32 13 1
+PP: 31 13 1
+PP: 30 13 1
+PP: 29 13 1
+PP: 26 13 1
+PP: 25 13 1
+PP: 6 13 1
+PP: 7 13 1
+PP: 9 5 10
+PP: 23 5 10
+PP: 0 11 10
+PP: 32 11 10
+Standard Output Stream:
+MOVE 0 27 7 | MOVE 1 3 13
+002
+131
+Standard Output Stream:
+MOVE 0 5 7|MOVE 1 29 13|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (27, 7).
+- Pac 1 moved to (3, 13).
+Inky:
+- Pac 0 moved to (5, 7).
+- Pac 1 moved to (29, 13).
+Standard Error Stream:
+Parse: 4 4
+Parse: 3
+Parse: 0 1 27 7 ROCK 0 0
+Parse: 1 1 3 13 PAPER 0 0
+Parse: 1 0 29 13 PAPER 0 0
+Parse: 30
 PP: 28 7 1
 PP: 29 7 1
-PP: 30 7 1
-PP: 0 7 1
-PP: 1 7 1
-PP: 2 7 1
+PP: 27 6 1
+PP: 27 5 1
+PP: 27 4 1
+PP: 27 3 1
+PP: 27 2 1
+PP: 27 1 1
+PP: 27 10 1
+PP: 27 11 1
+PP: 2 13 1
+PP: 1 13 1
+PP: 0 13 1
+PP: 32 13 1
+PP: 31 13 1
+PP: 30 13 1
+PP: 26 13 1
+PP: 25 13 1
+PP: 6 13 1
+PP: 7 13 1
+PP: 3 12 1
+PP: 3 11 1
+PP: 3 10 1
+PP: 3 9 1
+PP: 3 8 1
 PP: 3 7 1
-PP: 4 7 1
-PP: 8 7 1
-PP: 9 7 1
-PP: 21 6 1
-PP: 21 5 1
-PP: 21 12 1
-PP: 21 13 1
-PP: 13 4 10
-PP: 17 4 10
-PP: 5 11 10
-PP: 25 11 10
+PP: 9 5 10
+PP: 23 5 10
+PP: 0 11 10
+PP: 32 11 10
 Standard Output Stream:
-MOVE 0 13 9 | MOVE 1 27 11 | MOVE 2 22 7
-08
-10
+MOVE 0 28 7 | MOVE 1 3 12
+003
+131
 Standard Output Stream:
-MOVE 0 13 4|MOVE 1 1 5|
+MOVE 0 5 6|MOVE 1 30 13|
 Game Summary:
 Keyser_D_Soze:
-- Pac 0 moved to (13, 9).
-- Pac 1 moved to (27, 11).
-- Pac 2 moved to (22, 7).
+- Pac 0 moved to (28, 7).
+- Pac 1 moved to (3, 12).
 Inky:
-- Pac 0 moved to (13, 4).
+- Pac 0 moved to (5, 6).
+- Pac 1 moved to (30, 13).
+Standard Error Stream:
+Parse: 6 6
+Parse: 2
+Parse: 0 1 28 7 ROCK 0 0
+Parse: 1 1 3 12 PAPER 0 0
+Parse: 10
+PP: 29 7 1
+PP: 3 11 1
+PP: 3 10 1
+PP: 3 9 1
+PP: 3 8 1
+PP: 3 7 1
+PP: 9 5 10
+PP: 23 5 10
+PP: 0 11 10
+PP: 32 11 10
+Standard Output Stream:
+MOVE 0 29 7 | MOVE 1 3 11
+004
+131
+Standard Output Stream:
+MOVE 0 5 5|MOVE 1 31 13|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (29, 7).
+- Pac 1 moved to (3, 11).
+Inky:
+- Pac 0 moved to (5, 5).
+- Pac 1 moved to (31, 13).
+Standard Error Stream:
+Parse: 8 8
+Parse: 2
+Parse: 0 1 29 7 ROCK 0 0
+Parse: 1 1 3 11 PAPER 0 0
+Parse: 17
+PP: 29 8 1
+PP: 29 9 1
+PP: 29 10 1
+PP: 29 11 1
+PP: 29 12 1
+PP: 2 11 1
+PP: 1 11 1
+PP: 31 11 1
+PP: 30 11 1
+PP: 3 10 1
+PP: 3 9 1
+PP: 3 8 1
+PP: 3 7 1
+PP: 9 5 10
+PP: 23 5 10
+PP: 0 11 10
+PP: 32 11 10
+Standard Output Stream:
+MOVE 0 29 8 | MOVE 1 2 11
+005
+131
+Standard Output Stream:
+MOVE 0 5 4|MOVE 1 32 13|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (29, 8).
+- Pac 1 moved to (2, 11).
+Inky:
+- Pac 0 moved to (5, 4).
+- Pac 1 moved to (32, 13).
+Standard Error Stream:
+Parse: 10 10
+Parse: 2
+Parse: 0 1 29 8 ROCK 0 0
+Parse: 1 1 2 11 PAPER 0 0
+Parse: 11
+PP: 29 9 1
+PP: 29 10 1
+PP: 29 11 1
+PP: 29 12 1
+PP: 1 11 1
+PP: 31 11 1
+PP: 30 11 1
+PP: 9 5 10
+PP: 23 5 10
+PP: 0 11 10
+PP: 32 11 10
+Standard Output Stream:
+MOVE 0 29 9 | MOVE 1 1 11
+006
+131
+Standard Output Stream:
+MOVE 0 5 3|MOVE 1 0 13|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (29, 9).
+- Pac 1 moved to (1, 11).
+Inky:
+- Pac 0 moved to (5, 3).
+- Pac 1 moved to (0, 13).
+Standard Error Stream:
+Parse: 12 12
+Parse: 2
+Parse: 0 1 29 9 ROCK 0 0
+Parse: 1 1 1 11 PAPER 0 0
+Parse: 11
+PP: 30 9 1
+PP: 31 9 1
+PP: 29 10 1
+PP: 29 11 1
+PP: 29 12 1
+PP: 31 11 1
+PP: 30 11 1
+PP: 9 5 10
+PP: 23 5 10
+PP: 0 11 10
+PP: 32 11 10
+Standard Output Stream:
+MOVE 0 29 10 | MOVE 1 0 11
+007
+131
+Standard Output Stream:
+MOVE 0 5 2|MOVE 1 1 13|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (29, 10).
+- Pac 1 moved to (0, 11).
+Inky:
+- Pac 0 moved to (5, 2).
+- Pac 1 moved to (1, 13).
+Standard Error Stream:
+Parse: 23 14
+Parse: 2
+Parse: 0 1 29 10 ROCK 0 0
+Parse: 1 1 0 11 PAPER 0 0
+Parse: 7
+PP: 29 11 1
+PP: 29 12 1
+PP: 31 11 1
+PP: 30 11 1
+PP: 9 5 10
+PP: 23 5 10
+PP: 32 11 10
+Standard Output Stream:
+MOVE 0 29 11 | MOVE 1 1 11
+008
+131
+Standard Output Stream:
+MOVE 0 5 1|MOVE 1 2 13|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (29, 11).
+- Pac 1 moved to (1, 11).
+Inky:
+- Pac 0 moved to (5, 1).
+- Pac 1 moved to (2, 13).
+Standard Error Stream:
+Parse: 24 16
+Parse: 2
+Parse: 0 1 29 11 ROCK 0 0
+Parse: 1 1 1 11 PAPER 0 0
+Parse: 6
+PP: 30 11 1
+PP: 31 11 1
+PP: 29 12 1
+PP: 9 5 10
+PP: 23 5 10
+PP: 32 11 10
+Standard Output Stream:
+MOVE 0 30 11 | MOVE 1 2 11
+009
+131
+Standard Output Stream:
+SPEED 0|SPEED 1|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (30, 11).
+- Pac 1 moved to (2, 11).
+Inky:
+- Pac 0 used a speed boost.
+- Pac 1 used a speed boost.
+Standard Error Stream:
+Parse: 25 16
+Parse: 2
+Parse: 0 1 30 11 ROCK 0 0
+Parse: 1 1 2 11 PAPER 0 0
+Parse: 4
+PP: 31 11 1
+PP: 9 5 10
+PP: 23 5 10
+PP: 32 11 10
+Standard Output Stream:
+MOVE 0 31 11 | MOVE 1 3 11
+010
+131
+Standard Output Stream:
+MOVE 0 3 5|MOVE 1 3 11|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (31, 11).
+- Pac 1 moved to (3, 11).
+Inky:
+- Pac 0 moved to (5, 2).
+- Pac 1 moved to (3, 13).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 0 moved to (5, 3).
+- Pac 1 moved to (3, 12).
+Standard Error Stream:
+Parse: 26 16
+Parse: 3
+Parse: 0 1 31 11 ROCK 0 0
+Parse: 1 1 3 11 PAPER 0 0
+Parse: 1 0 3 12 PAPER 4 8
+Parse: 7
+PP: 3 10 1
+PP: 3 9 1
+PP: 3 8 1
+PP: 3 7 1
+PP: 9 5 10
+PP: 23 5 10
+PP: 32 11 10
+Standard Output Stream:
+MOVE 0 32 11 | MOVE 1 3 10
+012
+131
+Standard Output Stream:
+MOVE 0 3 5|MOVE 1 1 11|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (32, 11).
+- Pac 1 moved to (3, 10).
+Inky:
+- Pac 0 moved to (5, 4).
+- Pac 1 moved to (3, 11).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 0 moved to (5, 5).
+- Pac 1 moved to (2, 11).
+Standard Error Stream:
+Parse: 37 16
+Parse: 3
+Parse: 0 1 32 11 ROCK 0 0
+Parse: 1 1 3 10 PAPER 0 0
+Parse: 1 0 2 11 PAPER 3 7
+Parse: 5
+PP: 3 9 1
+PP: 3 8 1
+PP: 3 7 1
+PP: 9 5 10
+PP: 23 5 10
+Standard Output Stream:
+MOVE 0 31 11 | MOVE 1 3 9
+014
+131
+Standard Output Stream:
+MOVE 0 3 5|MOVE 1 3 9|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (31, 11).
+- Pac 1 moved to (3, 9).
+Inky:
+- Pac 0 moved to (4, 5).
+- Pac 1 moved to (3, 11).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 0 moved to (3, 5).
+- Pac 1 moved to (3, 10).
+Standard Error Stream:
+Parse: 38 18
+Parse: 3
+Parse: 0 1 31 11 ROCK 0 0
+Parse: 1 1 3 9 PAPER 0 0
+Parse: 1 0 3 10 PAPER 2 6
+Parse: 6
+PP: 2 9 1
+PP: 1 9 1
+PP: 3 8 1
+PP: 3 7 1
+PP: 9 5 10
+PP: 23 5 10
+Standard Output Stream:
+MOVE 0 30 11 | MOVE 1 3 8
+016
+131
+Standard Output Stream:
+MOVE 0 3 3|MOVE 1 1 9|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (30, 11).
+- Pac 1 moved to (3, 8).
+Inky:
+- Pac 0 moved to (3, 4).
+- Pac 1 moved to (3, 9).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 0 moved to (3, 3).
+- Pac 1 moved to (2, 9).
+Standard Error Stream:
+Parse: 39 21
+Parse: 2
+Parse: 0 1 30 11 ROCK 0 0
+Parse: 1 1 3 8 PAPER 0 0
+Parse: 3
+PP: 3 7 1
+PP: 9 5 10
+PP: 23 5 10
+Standard Output Stream:
+MOVE 0 29 11 | MOVE 1 3 7
+018
+131
+Standard Output Stream:
+MOVE 0 3 1|MOVE 1 1 8|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (29, 11).
+- Pac 1 moved to (3, 7).
+Inky:
+- Pac 0 moved to (3, 2).
+- Pac 1 moved to (1, 9).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 0 moved to (3, 1).
+- Pac 1 moved to (1, 8).
+Standard Error Stream:
+Parse: 40 25
+Parse: 2
+Parse: 0 1 29 11 ROCK 0 0
+Parse: 1 1 3 7 PAPER 0 0
+Parse: 4
+PP: 29 12 1
+PP: 4 7 1
+PP: 9 5 10
+PP: 23 5 10
+Standard Output Stream:
+MOVE 0 29 10 | MOVE 1 4 7
+020
+131
+Standard Output Stream:
+MOVE 0 2 1|MOVE 1 1 7|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (29, 10).
+- Pac 1 moved to (4, 7).
+Inky:
+- Pac 0 moved to (2, 1).
+- Pac 1 moved to (1, 7).
+Standard Error Stream:
+Parse: 41 27
+Parse: 2
+Parse: 0 1 29 10 ROCK 0 0
+Parse: 1 1 4 7 PAPER 0 0
+Parse: 3
+PP: 29 12 1
+PP: 9 5 10
+PP: 23 5 10
+Standard Output Stream:
+MOVE 0 29 9 | MOVE 1 5 7
+021
+131
+Standard Output Stream:
+MOVE 0 1 1|MOVE 1 1 6|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (29, 9).
+- Pac 1 moved to (5, 7).
+Inky:
+- Pac 0 moved to (1, 1).
+- Pac 1 moved to (1, 6).
+Standard Error Stream:
+Parse: 41 29
+Parse: 2
+Parse: 0 1 29 9 ROCK 0 0
+Parse: 1 1 5 7 PAPER 0 0
+Parse: 7
+PP: 30 9 1
+PP: 31 9 1
+PP: 29 12 1
+PP: 5 10 1
+PP: 5 11 1
+PP: 9 5 10
+PP: 23 5 10
+Standard Output Stream:
+MOVE 0 29 8 | MOVE 1 5 6
+022
+131
+Standard Output Stream:
+MOVE 0 0 1|MOVE 1 1 5|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (29, 8).
+- Pac 1 moved to (5, 6).
+Inky:
+- Pac 0 moved to (0, 1).
 - Pac 1 moved to (1, 5).
 Standard Error Stream:
-Parse: 21 30
-Parse: 3
-Parse: 0 1 13 9 SCISSORS 0 8
-Parse: 1 1 27 11 PAPER 0 0
-Parse: 2 1 22 7 SCISSORS 0 0
-Parse: 16
-PP: 26 11 1
-PP: 26 7 1
-PP: 27 7 1
-PP: 28 7 1
-PP: 29 7 1
-PP: 30 7 1
-PP: 0 7 1
-PP: 1 7 1
-PP: 2 7 1
-PP: 3 7 1
-PP: 4 7 1
-PP: 8 7 1
-PP: 9 7 1
-PP: 17 4 10
-PP: 5 11 10
-PP: 25 11 10
-Unhandled exception. System.NullReferenceException: Object reference not set to an instance of an object.
-   at AteMoving.Next(Manager manager, Pac pac) in /tmp/Answer.cs:line 232
-   at Engine.Move(Manager manager, Pac pac) in /tmp/Answer.cs:line 95
-   at Pac.Move(Manager manager) in /tmp/Answer.cs:line 515
-   at Manager.<MoveMine>b__18_0(Pac pac) in /tmp/Answer.cs:line 183
-   at System.Linq.Enumerable.SelectListIterator`2.MoveNext()
-   at System.String.Join(String separator, IEnumerable`1 values)
-   at Manager.MoveMine() in /tmp/Answer.cs:line 183
-   at Player.Main(String[] args) in /tmp/Answer.cs:line 67
-09
-10
+Parse: 41 31
+Parse: 2
+Parse: 0 1 29 8 ROCK 0 0
+Parse: 1 1 5 6 PAPER 0 0
+Parse: 5
+PP: 29 12 1
+PP: 5 10 1
+PP: 5 11 1
+PP: 9 5 10
+PP: 23 5 10
 Standard Output Stream:
-MOVE 0 13 3|MOVE 1 0 5|
+MOVE 0 29 7 | MOVE 1 5 5
+023
+131
+Standard Output Stream:
+MOVE 0 32 1|MOVE 1 1 4|
 Game Summary:
-Keyser_D_Soze has not provided 1 lines in time
+Keyser_D_Soze:
+- Pac 0 moved to (29, 7).
+- Pac 1 moved to (5, 5).
+Inky:
+- Pac 0 moved to (32, 1).
+- Pac 1 moved to (1, 4).
+Standard Error Stream:
+Parse: 41 33
+Parse: 2
+Parse: 0 1 29 7 ROCK 0 0
+Parse: 1 1 5 5 PAPER 0 0
+Parse: 8
+PP: 29 12 1
+PP: 6 5 1
+PP: 7 5 1
+PP: 8 5 1
+PP: 5 10 1
+PP: 5 11 1
+PP: 9 5 10
+PP: 23 5 10
+Standard Output Stream:
+MOVE 0 28 7 | MOVE 1 6 5
+024
+131
+Standard Output Stream:
+MOVE 0 31 1|MOVE 1 1 3|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (28, 7).
+- Pac 1 moved to (6, 5).
+Inky:
+- Pac 0 moved to (31, 1).
+- Pac 1 moved to (1, 3).
+Standard Error Stream:
+Parse: 42 35
+Parse: 2
+Parse: 0 1 28 7 ROCK 0 0
+Parse: 1 1 6 5 PAPER 0 0
+Parse: 4
+PP: 7 5 1
+PP: 8 5 1
+PP: 9 5 10
+PP: 23 5 10
+Standard Output Stream:
+MOVE 0 27 7 | MOVE 1 7 5
+025
+131
+Standard Output Stream:
+MOVE 0 30 1|MOVE 1 2 3|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (27, 7).
+- Pac 1 moved to (7, 5).
+Inky:
+- Pac 0 moved to (30, 1).
+- Pac 1 moved to (2, 3).
+Standard Error Stream:
+Parse: 43 37
+Parse: 2
+Parse: 0 1 27 7 ROCK 0 0
+Parse: 1 1 7 5 PAPER 0 0
+Parse: 11
+PP: 27 6 1
+PP: 27 5 1
+PP: 27 4 1
+PP: 27 3 1
+PP: 27 2 1
+PP: 27 1 1
+PP: 27 10 1
+PP: 27 11 1
+PP: 8 5 1
+PP: 9 5 10
+PP: 23 5 10
+Standard Output Stream:
+MOVE 0 27 6 | MOVE 1 8 5
+026
+131
+Standard Output Stream:
+MOVE 0 29 1|SPEED 1|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (27, 6).
+- Pac 1 moved to (8, 5).
+Inky:
+- Pac 0 moved to (29, 1).
+- Pac 1 used a speed boost.
+Standard Error Stream:
+Parse: 45 38
+Parse: 2
+Parse: 0 1 27 6 ROCK 0 0
+Parse: 1 1 8 5 PAPER 0 0
+Parse: 9
+PP: 27 5 1
+PP: 27 4 1
+PP: 27 3 1
+PP: 27 2 1
+PP: 27 1 1
+PP: 27 10 1
+PP: 27 11 1
+PP: 9 5 10
+PP: 23 5 10
+Standard Output Stream:
+MOVE 0 27 5 | MOVE 1 9 5
+027
+131
+Standard Output Stream:
+MOVE 0 29 2|MOVE 1 7 5|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (27, 5).
+- Pac 1 moved to (9, 5).
+Inky:
+- Pac 0 moved to (29, 2).
+- Pac 1 moved to (3, 3).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 1 moved to (3, 4).
+Standard Error Stream:
+Parse: 56 39
+Parse: 2
+Parse: 0 1 27 5 ROCK 0 0
+Parse: 1 1 9 5 PAPER 0 0
+Parse: 18
+PP: 26 5 1
+PP: 25 5 1
+PP: 24 5 1
+PP: 28 5 1
+PP: 29 5 1
+PP: 27 4 1
+PP: 27 3 1
+PP: 27 2 1
+PP: 27 1 1
+PP: 27 10 1
+PP: 27 11 1
+PP: 9 4 1
+PP: 9 3 1
+PP: 9 6 1
+PP: 9 7 1
+PP: 9 8 1
+PP: 9 9 1
+PP: 23 5 10
+Standard Output Stream:
+MOVE 0 26 5 | MOVE 1 9 4
+029
+131
+Standard Output Stream:
+MOVE 0 29 3|MOVE 1 7 5|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (26, 5).
+- Pac 1 moved to (9, 4).
+Inky:
+- Pac 0 moved to (29, 3).
+- Pac 1 moved to (3, 5).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 1 moved to (4, 5).
+Standard Error Stream:
+Parse: 58 40
+Parse: 2
+Parse: 0 1 26 5 ROCK 0 0
+Parse: 1 1 9 4 PAPER 0 0
+Parse: 10
+PP: 25 5 1
+PP: 24 5 1
+PP: 28 5 1
+PP: 29 5 1
+PP: 9 3 1
+PP: 9 6 1
+PP: 9 7 1
+PP: 9 8 1
+PP: 9 9 1
+PP: 23 5 10
+Standard Output Stream:
+MOVE 0 25 5 | MOVE 1 9 3
+031
+131
+Standard Output Stream:
+MOVE 0 30 3|MOVE 1 3 7|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (25, 5).
+- Pac 1 moved to (9, 3).
+Inky:
+- Pac 0 moved to (30, 3).
+- Pac 1 moved to (5, 5).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 1 moved to (5, 6).
+Standard Error Stream:
+Parse: 60 41
+Parse: 2
+Parse: 0 1 25 5 ROCK 0 0
+Parse: 1 1 9 3 PAPER 0 0
+Parse: 12
+PP: 24 5 1
+PP: 28 5 1
+PP: 29 5 1
+PP: 8 3 1
+PP: 7 3 1
+PP: 10 3 1
+PP: 11 3 1
+PP: 9 6 1
+PP: 9 7 1
+PP: 9 8 1
+PP: 9 9 1
+PP: 23 5 10
+Standard Output Stream:
+MOVE 0 24 5 | MOVE 1 8 3
+033
+131
+Standard Output Stream:
+MOVE 0 31 3|MOVE 1 3 7|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (24, 5).
+- Pac 1 moved to (8, 3).
+Inky:
+- Pac 0 moved to (31, 3).
+- Pac 1 moved to (5, 7).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 1 moved to (4, 7).
+Standard Error Stream:
+Parse: 62 42
+Parse: 2
+Parse: 0 1 24 5 ROCK 0 0
+Parse: 1 1 8 3 PAPER 0 0
+Parse: 6
+PP: 28 5 1
+PP: 29 5 1
+PP: 7 3 1
+PP: 10 3 1
+PP: 11 3 1
+PP: 23 5 10
+Standard Output Stream:
+MOVE 0 23 5 | MOVE 1 7 3
+035
+131
+Standard Output Stream:
+MOVE 0 31 4|MOVE 1 3 8|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (23, 5).
+- Pac 1 moved to (7, 3).
+Inky:
+- Pac 0 moved to (31, 4).
+- Pac 1 moved to (3, 7).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 1 moved to (3, 8).
+Standard Error Stream:
+Parse: 73 43
+Parse: 2
+Parse: 0 1 23 5 ROCK 0 0
+Parse: 1 1 7 3 PAPER 0 0
+Parse: 12
+PP: 28 5 1
+PP: 29 5 1
+PP: 23 4 1
+PP: 23 3 1
+PP: 23 6 1
+PP: 23 7 1
+PP: 23 8 1
+PP: 23 9 1
+PP: 10 3 1
+PP: 11 3 1
+PP: 7 2 1
+PP: 7 1 1
+Standard Output Stream:
+MOVE 0 23 4 | MOVE 1 7 2
+037
+131
+Standard Output Stream:
+MOVE 0 31 5|MOVE 1 5 10|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (23, 4).
+- Pac 1 moved to (7, 2).
+Inky:
+- Pac 0 moved to (31, 5).
+- Pac 1 moved to (3, 7).
+Standard Error Stream:
+Parse: 75 44
+Parse: 2
+Parse: 0 1 23 4 ROCK 0 0
+Parse: 1 1 7 2 PAPER 0 0
+Parse: 6
+PP: 23 3 1
+PP: 23 6 1
+PP: 23 7 1
+PP: 23 8 1
+PP: 23 9 1
+PP: 7 1 1
+Standard Output Stream:
+MOVE 0 23 3 | MOVE 1 7 1
+038
+131
+Standard Output Stream:
+MOVE 0 31 6|MOVE 1 5 10|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (23, 3).
+- Pac 1 moved to (7, 1).
+Inky:
+- Pac 0 moved to (31, 6).
+- Pac 1 moved to (4, 7).
+Standard Error Stream:
+Parse: 77 45
+Parse: 2
+Parse: 0 1 23 3 ROCK 0 0
+Parse: 1 1 7 1 PAPER 0 0
+Parse: 8
+PP: 22 3 1
+PP: 21 3 1
+PP: 24 3 1
+PP: 25 3 1
+PP: 23 6 1
+PP: 23 7 1
+PP: 23 8 1
+PP: 23 9 1
+Standard Output Stream:
+MOVE 0 22 3 | MOVE 1 7 2
+039
+131
+Standard Output Stream:
+MOVE 0 31 7|MOVE 1 5 10|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (22, 3).
+- Pac 1 moved to (7, 2).
+Inky:
+- Pac 0 moved to (31, 7).
+- Pac 1 moved to (5, 7).
+Standard Error Stream:
+Parse: 78 46
+Parse: 2
+Parse: 0 1 22 3 ROCK 0 0
+Parse: 1 1 7 2 PAPER 0 0
+Parse: 3
+PP: 21 3 1
+PP: 24 3 1
+PP: 25 3 1
+Standard Output Stream:
+MOVE 0 21 3 | MOVE 1 7 3
+040
+131
+Standard Output Stream:
+MOVE 0 31 8|MOVE 1 5 10|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (21, 3).
+- Pac 1 moved to (7, 3).
+Inky:
+- Pac 0 moved to (31, 8).
+- Pac 1 moved to (5, 8).
+Standard Error Stream:
+Parse: 79 47
+Parse: 2
+Parse: 0 1 21 3 ROCK 0 0
+Parse: 1 1 7 3 PAPER 0 0
+Parse: 10
+PP: 24 3 1
+PP: 25 3 1
+PP: 21 2 1
+PP: 21 1 1
+PP: 21 4 1
+PP: 21 5 1
+PP: 21 6 1
+PP: 21 7 1
+PP: 10 3 1
+PP: 11 3 1
+Standard Output Stream:
+MOVE 0 21 2 | MOVE 1 8 3
+041
+131
+Standard Output Stream:
+MOVE 0 31 9|SPEED 1|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (21, 2).
+- Pac 1 moved to (8, 3).
+Inky:
+- Pac 0 moved to (31, 9).
+- Pac 1 used a speed boost.
+Standard Error Stream:
+Parse: 80 48
+Parse: 2
+Parse: 0 1 21 2 ROCK 0 0
+Parse: 1 1 8 3 PAPER 0 0
+Parse: 7
+PP: 21 1 1
+PP: 21 4 1
+PP: 21 5 1
+PP: 21 6 1
+PP: 21 7 1
+PP: 10 3 1
+PP: 11 3 1
+Standard Output Stream:
+MOVE 0 21 1 | MOVE 1 9 3
+042
+131
+Standard Output Stream:
+MOVE 0 30 9|MOVE 1 5 11|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (21, 1).
+- Pac 1 moved to (9, 3).
+Inky:
+- Pac 0 moved to (30, 9).
+- Pac 1 moved to (5, 9).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 1 moved to (5, 10).
+Standard Error Stream:
+Parse: 81 50
+Parse: 2
+Parse: 0 1 21 1 ROCK 0 0
+Parse: 1 1 9 3 PAPER 0 0
+Parse: 10
+PP: 21 4 1
+PP: 21 5 1
+PP: 21 6 1
+PP: 21 7 1
+PP: 10 3 1
+PP: 11 3 1
+PP: 9 6 1
+PP: 9 7 1
+PP: 9 8 1
+PP: 9 9 1
+Standard Output Stream:
+MOVE 0 21 2 | MOVE 1 9 4
+044
+131
+Standard Output Stream:
+SPEED 0|MOVE 1 6 11|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (21, 2).
+- Pac 1 moved to (9, 4).
+Inky:
+- Pac 0 used a speed boost.
+- Pac 1 moved to (5, 11).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 1 moved to (6, 11).
+Standard Error Stream:
+Parse: 81 52
+Parse: 2
+Parse: 0 1 21 2 ROCK 0 0
+Parse: 1 1 9 4 PAPER 0 0
+Parse: 8
+PP: 21 4 1
+PP: 21 5 1
+PP: 21 6 1
+PP: 21 7 1
+PP: 9 6 1
+PP: 9 7 1
+PP: 9 8 1
+PP: 9 9 1
+Standard Output Stream:
+MOVE 0 21 3 | MOVE 1 9 5
+046
+131
+Standard Output Stream:
+MOVE 0 29 7|MOVE 1 7 10|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (21, 3).
+- Pac 1 moved to (9, 5).
+Inky:
+- Pac 0 moved to (29, 9).
+- Pac 1 moved to (7, 11).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 0 moved to (29, 8).
+- Pac 1 moved to (7, 10).
+Standard Error Stream:
+Parse: 81 54
+Parse: 2
+Parse: 0 1 21 3 ROCK 0 0
+Parse: 1 1 9 5 PAPER 0 0
+Parse: 10
+PP: 24 3 1
+PP: 25 3 1
+PP: 21 4 1
+PP: 21 5 1
+PP: 21 6 1
+PP: 21 7 1
+PP: 9 6 1
+PP: 9 7 1
+PP: 9 8 1
+PP: 9 9 1
+Standard Output Stream:
+MOVE 0 22 3 | MOVE 1 8 5
+048
+131
+Standard Output Stream:
+MOVE 0 27 7|MOVE 1 7 8|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (22, 3).
+- Pac 1 moved to (8, 5).
+Inky:
+- Pac 0 moved to (29, 7).
+- Pac 1 moved to (7, 9).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 0 moved to (28, 7).
+- Pac 1 moved to (7, 8).
+Standard Error Stream:
+Parse: 81 56
+Parse: 2
+Parse: 0 1 22 3 ROCK 0 0
+Parse: 1 1 8 5 PAPER 0 0
+Parse: 2
+PP: 24 3 1
+PP: 25 3 1
+Standard Output Stream:
+MOVE 0 23 3 | MOVE 1 7 5
+050
+131
+Standard Output Stream:
+MOVE 0 27 5|MOVE 1 8 7|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (23, 3).
+- Pac 1 moved to (7, 5).
+Inky:
+- Pac 0 moved to (27, 7).
+- Pac 1 moved to (7, 7).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 0 moved to (27, 6).
+- Pac 1 moved to (8, 7).
+Standard Error Stream:
+Parse: 81 58
+Parse: 2
+Parse: 0 1 23 3 ROCK 0 0
+Parse: 1 1 7 5 PAPER 0 0
+Parse: 6
+PP: 24 3 1
+PP: 25 3 1
+PP: 23 6 1
+PP: 23 7 1
+PP: 23 8 1
+PP: 23 9 1
+Standard Output Stream:
+MOVE 0 23 4 | MOVE 1 6 5
+052
+131
+Standard Output Stream:
+MOVE 0 27 3|MOVE 1 9 7|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (23, 4).
+- Pac 1 moved to (6, 5).
+Inky:
+- Pac 0 moved to (27, 5).
+- Pac 1 moved to (9, 7).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 0 moved to (27, 4).
+Standard Error Stream:
+Parse: 81 60
+Parse: 2
+Parse: 0 1 23 4 ROCK 0 0
+Parse: 1 1 6 5 PAPER 0 0
+Parse: 4
+PP: 23 6 1
+PP: 23 7 1
+PP: 23 8 1
+PP: 23 9 1
+Standard Output Stream:
+MOVE 0 23 5 | MOVE 1 5 5
+054
+131
+Standard Output Stream:
+MOVE 0 27 2|MOVE 1 9 8|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (23, 5).
+- Pac 1 moved to (5, 5).
+Inky:
+- Pac 0 moved to (27, 3).
+- Pac 1 moved to (9, 8).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 0 moved to (27, 2).
+Standard Error Stream:
+Parse: 81 63
+Parse: 2
+Parse: 0 1 23 5 ROCK 0 0
+Parse: 1 1 5 5 PAPER 0 0
+Parse: 6
+PP: 28 5 1
+PP: 29 5 1
+PP: 23 6 1
+PP: 23 7 1
+PP: 23 8 1
+PP: 23 9 1
+Standard Output Stream:
+MOVE 0 24 5 | MOVE 1 5 4
+056
+131
+Standard Output Stream:
+MOVE 0 27 1|MOVE 1 9 9|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (24, 5).
+- Pac 1 moved to (5, 4).
+Inky:
+- Pac 0 moved to (27, 1).
+- Pac 1 moved to (9, 9).
+Standard Error Stream:
+Parse: 81 65
+Parse: 2
+Parse: 0 1 24 5 ROCK 0 0
+Parse: 1 1 5 4 PAPER 0 0
+Parse: 2
+PP: 28 5 1
+PP: 29 5 1
+Standard Output Stream:
+MOVE 0 25 5 | MOVE 1 5 3
+057
+131
+Standard Output Stream:
+MOVE 0 26 5|MOVE 1 10 9|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (25, 5).
+- Pac 1 moved to (5, 3).
+Inky:
+- Pac 0 moved to (27, 2).
+- Pac 1 moved to (10, 9).
+Standard Error Stream:
+Parse: 81 66
+Parse: 2
+Parse: 0 1 25 5 ROCK 0 0
+Parse: 1 1 5 3 PAPER 0 0
+Parse: 2
+PP: 28 5 1
+PP: 29 5 1
+Standard Output Stream:
+MOVE 0 26 5 | MOVE 1 5 2
+058
+131
+Standard Output Stream:
+MOVE 0 26 5|MOVE 1 11 9|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (26, 5).
+- Pac 1 moved to (5, 2).
+Inky:
+- Pac 0 moved to (27, 3).
+- Pac 1 moved to (11, 9).
+Standard Error Stream:
+Parse: 81 67
+Parse: 2
+Parse: 0 1 26 5 ROCK 0 0
+Parse: 1 1 5 2 PAPER 0 0
+Parse: 2
+PP: 28 5 1
+PP: 29 5 1
+Standard Output Stream:
+MOVE 0 27 5 | MOVE 1 5 1
+059
+131
+Standard Output Stream:
+MOVE 0 26 5|MOVE 1 12 9|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (27, 5).
+- Pac 1 moved to (5, 1).
+Inky:
+- Pac 0 moved to (27, 4).
+- Pac 1 moved to (12, 9).
+Standard Error Stream:
+Parse: 81 68
+Parse: 3
+Parse: 0 1 27 5 ROCK 0 0
+Parse: 0 0 27 4 ROCK 0 0
+Parse: 1 1 5 1 PAPER 0 0
+Parse: 4
+PP: 28 5 1
+PP: 29 5 1
+PP: 27 10 1
+PP: 27 11 1
+Standard Output Stream:
+MOVE 0 27 6 | MOVE 1 5 2
+060
+131
+Standard Output Stream:
+SWITCH 0 PAPER|MOVE 1 13 9|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (27, 6).
+- Pac 1 moved to (5, 2).
+Inky:
+- Pac 0 switch to PAPER form.
+- Pac 1 moved to (13, 9).
+Standard Error Stream:
+Parse: 81 69
+Parse: 3
+Parse: 0 1 27 6 ROCK 0 0
+Parse: 0 0 27 4 PAPER 0 9
+Parse: 1 1 5 2 PAPER 0 0
+Parse: 2
+PP: 27 10 1
+PP: 27 11 1
+Standard Output Stream:
+MOVE 0 27 7 | MOVE 1 5 3
+061
+131
+Standard Output Stream:
+MOVE 0 26 5|MOVE 1 14 9|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (27, 7).
+- Pac 1 moved to (5, 3).
+Inky:
+- Pac 0 moved to (27, 5).
+- Pac 1 moved to (14, 9).
+Standard Error Stream:
+Parse: 81 70
+Parse: 3
+Parse: 0 1 27 7 ROCK 0 0
+Parse: 0 0 27 5 PAPER 0 8
+Parse: 1 1 5 3 PAPER 0 0
+Parse: 2
+PP: 27 10 1
+PP: 27 11 1
+Standard Output Stream:
+MOVE 0 28 7 | MOVE 1 5 4
+062
+131
+Standard Output Stream:
+MOVE 0 28 5|MOVE 1 15 9|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (28, 7).
+- Pac 1 moved to (5, 4).
+Inky:
+- Pac 0 moved to (28, 5).
+- Pac 1 moved to (15, 9).
+Standard Error Stream:
+Parse: 81 72
+Parse: 2
+Parse: 0 1 28 7 ROCK 0 0
+Parse: 1 1 5 4 PAPER 0 0
+Parse: 0
+Standard Output Stream:
+MOVE 0 29 7 | MOVE 1 5 5
+063
+131
+Standard Output Stream:
+MOVE 0 29 5|MOVE 1 15 10|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (29, 7).
+- Pac 1 moved to (5, 5).
+Inky:
+- Pac 0 moved to (29, 5).
+- Pac 1 moved to (15, 10).
+Standard Error Stream:
+Parse: 81 74
+Parse: 2
+Parse: 0 1 29 7 ROCK 0 0
+Parse: 1 1 5 5 PAPER 0 0
+Parse: 1
+PP: 29 12 1
+Standard Output Stream:
+MOVE 0 29 8 | MOVE 1 6 5
+064
+131
+Standard Output Stream:
+MOVE 0 29 4|MOVE 1 15 11|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (29, 8).
+- Pac 1 moved to (6, 5).
+Inky:
+- Pac 0 moved to (29, 4).
+- Pac 1 moved to (15, 11).
+Standard Error Stream:
+Parse: 81 76
+Parse: 2
+Parse: 0 1 29 8 ROCK 0 0
+Parse: 1 1 6 5 PAPER 0 0
+Parse: 1
+PP: 29 12 1
+Standard Output Stream:
+MOVE 0 29 9 | MOVE 1 7 5
+065
+131
+Standard Output Stream:
+MOVE 0 27 10|MOVE 1 16 11|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (29, 9).
+- Pac 1 moved to (7, 5).
+Inky:
+- Pac 0 moved to (29, 5).
+- Pac 1 moved to (16, 11).
+Standard Error Stream:
+Parse: 81 77
+Parse: 2
+Parse: 0 1 29 9 ROCK 0 0
+Parse: 1 1 7 5 PAPER 0 0
+Parse: 1
+PP: 29 12 1
+Standard Output Stream:
+MOVE 0 29 10 | MOVE 1 8 5
+066
+131
+Standard Output Stream:
+MOVE 0 27 10|MOVE 1 17 11|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (29, 10).
+- Pac 1 moved to (8, 5).
+Inky:
+- Pac 0 moved to (28, 5).
+- Pac 1 moved to (17, 11).
+Standard Error Stream:
+Parse: 81 78
+Parse: 2
+Parse: 0 1 29 10 ROCK 0 0
+Parse: 1 1 8 5 PAPER 0 0
+Parse: 1
+PP: 29 12 1
+Standard Output Stream:
+MOVE 0 29 11 | MOVE 1 9 5
+067
+131
+Standard Output Stream:
+MOVE 0 27 10|MOVE 1 17 10|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (29, 11).
+- Pac 1 moved to (9, 5).
+Inky:
+- Pac 0 moved to (27, 5).
+- Pac 1 moved to (17, 10).
+Standard Error Stream:
+Parse: 81 79
+Parse: 2
+Parse: 0 1 29 11 ROCK 0 0
+Parse: 1 1 9 5 PAPER 0 0
+Parse: 2
+PP: 29 12 1
+PP: 9 6 1
+Standard Output Stream:
+MOVE 0 30 11 | MOVE 1 9 4
+068
+131
+Standard Output Stream:
+MOVE 0 27 10|MOVE 1 17 9|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (30, 11).
+- Pac 1 moved to (9, 4).
+Inky:
+- Pac 0 moved to (27, 6).
+- Pac 1 moved to (17, 9).
+Standard Error Stream:
+Parse: 81 80
+Parse: 2
+Parse: 0 1 30 11 ROCK 0 0
+Parse: 1 1 9 4 PAPER 0 0
+Parse: 1
+PP: 9 6 1
+Standard Output Stream:
+MOVE 0 31 11 | MOVE 1 9 3
+069
+131
+Standard Output Stream:
+MOVE 0 26 9|MOVE 1 18 9|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (31, 11).
+- Pac 1 moved to (9, 3).
+Inky:
+- Pac 0 moved to (27, 7).
+- Pac 1 moved to (18, 9).
+Standard Error Stream:
+Parse: 81 81
+Parse: 2
+Parse: 0 1 31 11 ROCK 0 0
+Parse: 1 1 9 3 PAPER 0 0
+Parse: 3
+PP: 10 3 1
+PP: 11 3 1
+PP: 9 6 1
+Standard Output Stream:
+MOVE 0 32 11 | MOVE 1 10 3
+070
+131
+Standard Output Stream:
+SPEED 0|MOVE 1 19 9|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (32, 11).
+- Pac 1 moved to (10, 3).
+Inky:
+- Pac 0 used a speed boost.
+- Pac 1 moved to (19, 9).
+Standard Error Stream:
+Parse: 82 82
+Parse: 2
+Parse: 0 1 32 11 ROCK 0 0
+Parse: 1 1 10 3 PAPER 0 0
+Parse: 1
+PP: 11 3 1
+Standard Output Stream:
+MOVE 0 0 11 | MOVE 1 11 3
+071
+131
+Standard Output Stream:
+MOVE 0 25 9|MOVE 1 20 9|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (0, 11).
+- Pac 1 moved to (11, 3).
+Inky:
+- Pac 0 moved to (27, 8).
+- Pac 1 moved to (20, 9).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 0 moved to (27, 9).
+Standard Error Stream:
+Parse: 83 83
+Parse: 2
+Parse: 0 1 0 11 ROCK 0 0
+Parse: 1 1 11 3 PAPER 0 0
+Parse: 6
+PP: 11 2 1
+PP: 11 1 1
+PP: 11 4 1
+PP: 11 5 1
+PP: 11 6 1
+PP: 11 7 1
+Standard Output Stream:
+MOVE 0 1 11 | MOVE 1 11 2
+073
+131
+Standard Output Stream:
+MOVE 0 25 9|MOVE 1 21 9|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (1, 11).
+- Pac 1 moved to (11, 2).
+Inky:
+- Pac 0 moved to (26, 9).
+- Pac 1 moved to (21, 9).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 0 moved to (25, 9).
+Standard Error Stream:
+Parse: 84 86
+Parse: 2
+Parse: 0 1 1 11 ROCK 0 0
+Parse: 1 1 11 2 PAPER 0 0
+Parse: 5
+PP: 11 1 1
+PP: 11 4 1
+PP: 11 5 1
+PP: 11 6 1
+PP: 11 7 1
+Standard Output Stream:
+MOVE 0 2 11 | MOVE 1 11 1
+075
+131
+Standard Output Stream:
+MOVE 0 25 7|MOVE 1 22 9|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (2, 11).
+- Pac 1 moved to (11, 1).
+Inky:
+- Pac 0 moved to (25, 8).
+- Pac 1 moved to (22, 9).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 0 moved to (25, 7).
+Standard Error Stream:
+Parse: 85 89
+Parse: 2
+Parse: 0 1 2 11 ROCK 0 0
+Parse: 1 1 11 1 PAPER 0 0
+Parse: 4
+PP: 11 4 1
+PP: 11 5 1
+PP: 11 6 1
+PP: 11 7 1
+Standard Output Stream:
+MOVE 0 3 11 | MOVE 1 11 2
+077
+131
+Standard Output Stream:
+MOVE 0 23 7|MOVE 1 23 9|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (3, 11).
+- Pac 1 moved to (11, 2).
+Inky:
+- Pac 0 moved to (24, 7).
+- Pac 1 moved to (23, 9).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 0 moved to (23, 7).
+Standard Error Stream:
+Parse: 85 92
+Parse: 2
+Parse: 0 1 3 11 ROCK 0 0
+Parse: 1 1 11 2 PAPER 0 0
+Parse: 4
+PP: 11 4 1
+PP: 11 5 1
+PP: 11 6 1
+PP: 11 7 1
+Standard Output Stream:
+MOVE 0 3 10 | MOVE 1 11 3
+079
+131
+Standard Output Stream:
+MOVE 0 23 6|MOVE 1 23 8|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (3, 10).
+- Pac 1 moved to (11, 3).
+Inky:
+- Pac 0 moved to (23, 6).
+- Pac 1 moved to (23, 8).
+Standard Error Stream:
+Parse: 85 94
+Parse: 2
+Parse: 0 1 3 10 ROCK 0 0
+Parse: 1 1 11 3 PAPER 0 0
+Parse: 4
+PP: 11 4 1
+PP: 11 5 1
+PP: 11 6 1
+PP: 11 7 1
+Standard Output Stream:
+MOVE 0 3 9 | MOVE 1 10 3
+080
+131
+Standard Output Stream:
+MOVE 0 22 3|SPEED 1|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (3, 9).
+- Pac 1 moved to (10, 3).
+Inky:
+- Pac 0 moved to (23, 5).
+- Pac 1 used a speed boost.
+Standard Error Stream:
+Parse: 85 94
+Parse: 2
+Parse: 0 1 3 9 ROCK 0 0
+Parse: 1 1 10 3 PAPER 0 0
+Parse: 0
+Standard Output Stream:
+MOVE 0 3 8 | MOVE 1 9 3
+081
+131
+Standard Output Stream:
+MOVE 0 22 3|MOVE 1 19 11|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (3, 8).
+- Pac 1 moved to (9, 3).
+Inky:
+- Pac 0 moved to (23, 4).
+- Pac 1 moved to (23, 9).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 1 moved to (22, 9).
+Standard Error Stream:
+Parse: 85 94
+Parse: 2
+Parse: 0 1 3 8 ROCK 0 0
+Parse: 1 1 9 3 PAPER 0 0
+Parse: 1
+PP: 9 6 1
+Standard Output Stream:
+MOVE 0 3 7 | MOVE 1 9 4
+083
+131
+Standard Output Stream:
+MOVE 0 22 3|MOVE 1 19 11|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (3, 7).
+- Pac 1 moved to (9, 4).
+Inky:
+- Pac 0 moved to (23, 3).
+- Pac 1 moved to (21, 9).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 1 moved to (20, 9).
+Standard Error Stream:
+Parse: 85 94
+Parse: 2
+Parse: 0 1 3 7 ROCK 0 0
+Parse: 1 1 9 4 PAPER 0 0
+Parse: 1
+PP: 9 6 1
+Standard Output Stream:
+MOVE 0 4 7 | MOVE 1 9 5
+085
+131
+Standard Output Stream:
+MOVE 0 24 3|MOVE 1 19 11|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (4, 7).
+- Pac 1 moved to (9, 5).
+Inky:
+- Pac 0 moved to (24, 3).
+- Pac 1 moved to (19, 9).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 1 moved to (19, 10).
+Standard Error Stream:
+Parse: 85 96
+Parse: 2
+Parse: 0 1 4 7 ROCK 0 0
+Parse: 1 1 9 5 PAPER 0 0
+Parse: 1
+PP: 9 6 1
+Standard Output Stream:
+MOVE 0 5 7 | MOVE 1 8 5
+087
+131
+Standard Output Stream:
+MOVE 0 25 3|MOVE 1 20 11|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (5, 7).
+- Pac 1 moved to (8, 5).
+Inky:
+- Pac 0 moved to (25, 3).
+- Pac 1 moved to (19, 11).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 1 moved to (20, 11).
+Standard Error Stream:
+Parse: 85 99
+Parse: 2
+Parse: 0 1 5 7 ROCK 0 0
+Parse: 1 1 8 5 PAPER 0 0
+Parse: 0
+Standard Output Stream:
+MOVE 0 5 6 | MOVE 1 7 5
+089
+131
+Standard Output Stream:
+MOVE 0 25 2|MOVE 1 22 11|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (5, 6).
+- Pac 1 moved to (7, 5).
+Inky:
+- Pac 0 moved to (25, 2).
+- Pac 1 moved to (21, 11).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 1 moved to (22, 11).
+Standard Error Stream:
+Parse: 85 102
+Parse: 2
+Parse: 0 1 5 6 ROCK 0 0
+Parse: 1 1 7 5 PAPER 0 0
+Parse: 0
+Standard Output Stream:
+MOVE 0 5 5 | MOVE 1 6 5
+091
+131
+Standard Output Stream:
+MOVE 0 25 1|MOVE 1 23 11|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (5, 5).
+- Pac 1 moved to (6, 5).
+Inky:
+- Pac 0 moved to (25, 1).
+- Pac 1 moved to (23, 11).
+Standard Error Stream:
+Parse: 85 104
+Parse: 2
+Parse: 0 1 5 5 ROCK 0 0
+Parse: 1 1 6 5 PAPER 0 0
+Parse: 0
+Standard Output Stream:
+MOVE 0 5 6 | MOVE 1 7 5
+092
+131
+Standard Output Stream:
+SPEED 0|MOVE 1 24 11|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (5, 6).
+- Pac 1 moved to (7, 5).
+Inky:
+- Pac 0 used a speed boost.
+- Pac 1 moved to (24, 11).
+Standard Error Stream:
+Parse: 85 105
+Parse: 2
+Parse: 0 1 5 6 ROCK 0 0
+Parse: 1 1 7 5 PAPER 0 0
+Parse: 0
+Standard Output Stream:
+MOVE 0 5 7 | MOVE 1 8 5
+093
+131
+Standard Output Stream:
+MOVE 0 21 1|MOVE 1 25 11|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (5, 7).
+- Pac 1 moved to (8, 5).
+Inky:
+- Pac 0 moved to (25, 2).
+- Pac 1 moved to (25, 11).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 0 moved to (25, 3).
+Standard Error Stream:
+Parse: 85 106
+Parse: 2
+Parse: 0 1 5 7 ROCK 0 0
+Parse: 1 1 8 5 PAPER 0 0
+Parse: 0
+Standard Output Stream:
+MOVE 0 4 7 | MOVE 1 9 5
+095
+131
+Standard Output Stream:
+MOVE 0 21 1|MOVE 1 26 11|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (4, 7).
+- Pac 1 moved to (9, 5).
+Inky:
+- Pac 0 moved to (24, 3).
+- Pac 1 moved to (26, 11).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 0 moved to (23, 3).
+Standard Error Stream:
+Parse: 85 107
+Parse: 2
+Parse: 0 1 4 7 ROCK 0 0
+Parse: 1 1 9 5 PAPER 0 0
+Parse: 1
+PP: 9 6 1
+Standard Output Stream:
+MOVE 0 3 7 | MOVE 1 9 6
+097
+131
+Standard Output Stream:
+MOVE 0 21 1|MOVE 1 27 11|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (3, 7).
+- Pac 1 moved to (9, 6).
+Inky:
+- Pac 0 moved to (22, 3).
+- Pac 1 moved to (27, 11).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 0 moved to (21, 3).
+Standard Error Stream:
+Parse: 86 108
+Parse: 2
+Parse: 0 1 3 7 ROCK 0 0
+Parse: 1 1 9 6 PAPER 0 0
+Parse: 0
+Standard Output Stream:
+MOVE 0 3 8 | MOVE 1 9 7
+099
+131
+Standard Output Stream:
+MOVE 0 21 5|MOVE 1 27 10|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (3, 8).
+- Pac 1 moved to (9, 7).
+Inky:
+- Pac 0 moved to (21, 4).
+- Pac 1 moved to (27, 10).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 0 moved to (21, 5).
+Standard Error Stream:
+Parse: 86 111
+Parse: 2
+Parse: 0 1 3 8 ROCK 0 0
+Parse: 1 1 9 7 PAPER 0 0
+Parse: 0
+Standard Output Stream:
+MOVE 0 3 9 | MOVE 1 9 8
+101
+131
+Standard Output Stream:
+MOVE 0 19 5|SPEED 1|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (3, 9).
+- Pac 1 moved to (9, 8).
+Inky:
+- Pac 0 moved to (20, 5).
+- Pac 1 used a speed boost.
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 0 moved to (19, 5).
+Standard Error Stream:
+Parse: 86 113
+Parse: 2
+Parse: 0 1 3 9 ROCK 0 0
+Parse: 1 1 9 8 PAPER 0 0
+Parse: 0
+Standard Output Stream:
+MOVE 0 3 10 | MOVE 1 9 9
+103
+131
+Standard Output Stream:
+MOVE 0 19 4|MOVE 1 25 13|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (3, 10).
+- Pac 1 moved to (9, 9).
+Inky:
+- Pac 0 moved to (19, 4).
+- Pac 1 moved to (27, 11).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 1 moved to (26, 11).
+Standard Error Stream:
+Parse: 86 114
+Parse: 2
+Parse: 0 1 3 10 ROCK 0 0
+Parse: 1 1 9 9 PAPER 0 0
+Parse: 1
+PP: 16 9 1
+Standard Output Stream:
+MOVE 0 3 11 | MOVE 1 10 9
+105
+131
+Standard Output Stream:
+MOVE 0 19 3|MOVE 1 25 13|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (3, 11).
+- Pac 1 moved to (10, 9).
+Inky:
+- Pac 0 moved to (19, 3).
+- Pac 1 moved to (25, 11).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 1 moved to (25, 12).
+Standard Error Stream:
+Parse: 86 116
+Parse: 2
+Parse: 0 1 3 11 ROCK 0 0
+Parse: 1 1 10 9 PAPER 0 0
+Parse: 1
+PP: 16 9 1
+Standard Output Stream:
+MOVE 0 3 12 | MOVE 1 11 9
+107
+131
+Standard Output Stream:
+MOVE 0 18 3|MOVE 1 26 13|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (3, 12).
+- Pac 1 moved to (11, 9).
+Inky:
+- Pac 0 moved to (18, 3).
+- Pac 1 moved to (25, 13).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 1 moved to (26, 13).
+Standard Error Stream:
+Parse: 86 119
+Parse: 2
+Parse: 0 1 3 12 ROCK 0 0
+Parse: 1 1 11 9 PAPER 0 0
+Parse: 1
+PP: 16 9 1
+Standard Output Stream:
+MOVE 0 3 13 | MOVE 1 12 9
+109
+131
+Standard Output Stream:
+MOVE 0 17 3|MOVE 1 27 14|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (3, 13).
+- Pac 1 moved to (12, 9).
+Inky:
+- Pac 0 moved to (17, 3).
+- Pac 1 moved to (27, 13).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 1 moved to (27, 14).
+Standard Error Stream:
+Parse: 86 121
+Parse: 2
+Parse: 0 1 3 13 ROCK 0 0
+Parse: 1 1 12 9 PAPER 0 0
+Parse: 3
+PP: 6 13 1
+PP: 7 13 1
+PP: 16 9 1
+Standard Output Stream:
+MOVE 0 4 13 | MOVE 1 13 9
+111
+131
+Standard Output Stream:
+MOVE 0 17 2|MOVE 1 25 14|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (4, 13).
+- Pac 1 moved to (13, 9).
+Inky:
+- Pac 0 moved to (17, 2).
+- Pac 1 moved to (27, 13).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 1 moved to (26, 13).
+Standard Error Stream:
+Parse: 86 122
+Parse: 3
+Parse: 0 1 4 13 ROCK 0 0
+Parse: 1 1 13 9 PAPER 0 0
+Parse: 1 0 26 13 PAPER 0 4
+Parse: 14
+PP: 6 13 1
+PP: 7 13 1
+PP: 16 9 1
+PP: 13 8 1
+PP: 13 7 1
+PP: 13 6 1
+PP: 13 5 1
+PP: 13 4 1
+PP: 13 3 1
+PP: 13 10 1
+PP: 13 11 1
+PP: 13 12 1
+PP: 13 13 1
+PP: 13 14 1
+Standard Output Stream:
+MOVE 0 5 13 | MOVE 1 13 10
+113
+131
+Standard Output Stream:
+MOVE 0 17 1|MOVE 1 25 14|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (5, 13).
+- Pac 1 moved to (13, 10).
+Inky:
+- Pac 0 moved to (17, 1).
+- Pac 1 moved to (25, 13).
+Standard Error Stream:
+Parse: 87 123
+Parse: 3
+Parse: 0 1 5 13 ROCK 0 0
+Parse: 1 1 13 10 PAPER 0 0
+Parse: 1 0 25 13 PAPER 0 3
+Parse: 13
+PP: 6 13 1
+PP: 7 13 1
+PP: 5 14 1
+PP: 13 8 1
+PP: 13 7 1
+PP: 13 6 1
+PP: 13 5 1
+PP: 13 4 1
+PP: 13 3 1
+PP: 13 11 1
+PP: 13 12 1
+PP: 13 13 1
+PP: 13 14 1
+Standard Output Stream:
+MOVE 0 5 14 | MOVE 1 13 11
+114
+131
+Standard Output Stream:
+MOVE 0 16 1|MOVE 1 25 14|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (5, 14).
+- Pac 1 moved to (13, 11).
+Inky:
+- Pac 0 moved to (16, 1).
+- Pac 1 moved to (25, 14).
+Standard Error Stream:
+Parse: 89 125
+Parse: 2
+Parse: 0 1 5 14 ROCK 0 0
+Parse: 1 1 13 11 PAPER 0 0
+Parse: 14
+PP: 12 11 1
+PP: 11 11 1
+PP: 10 11 1
+PP: 9 11 1
+PP: 8 11 1
+PP: 13 8 1
+PP: 13 7 1
+PP: 13 6 1
+PP: 13 5 1
+PP: 13 4 1
+PP: 13 3 1
+PP: 13 12 1
+PP: 13 13 1
+PP: 13 14 1
+Standard Output Stream:
+MOVE 0 5 13 | MOVE 1 12 11
+115
+131
+Standard Output Stream:
+MOVE 0 15 1|MOVE 1 25 10|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (5, 13).
+- Pac 1 moved to (12, 11).
+Inky:
+- Pac 0 moved to (15, 1).
+- Pac 1 moved to (25, 13).
+Standard Error Stream:
+Parse: 90 126
+Parse: 3
+Parse: 0 1 5 13 ROCK 0 0
+Parse: 1 1 12 11 PAPER 0 0
+Parse: 1 0 25 13 PAPER 0 1
+Parse: 6
+PP: 6 13 1
+PP: 7 13 1
+PP: 11 11 1
+PP: 10 11 1
+PP: 9 11 1
+PP: 8 11 1
+Standard Output Stream:
+MOVE 0 6 13 | MOVE 1 11 11
+116
+131
+Standard Output Stream:
+MOVE 0 14 1|MOVE 1 25 10|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (6, 13).
+- Pac 1 moved to (11, 11).
+Inky:
+- Pac 0 moved to (14, 1).
+- Pac 1 moved to (25, 12).
+Standard Error Stream:
+Parse: 92 127
+Parse: 2
+Parse: 0 1 6 13 ROCK 0 0
+Parse: 1 1 11 11 PAPER 0 0
+Parse: 7
+PP: 7 13 1
+PP: 10 11 1
+PP: 9 11 1
+PP: 8 11 1
+PP: 11 12 1
+PP: 11 13 1
+PP: 11 14 1
+Standard Output Stream:
+MOVE 0 7 13 | MOVE 1 11 12
+117
+131
+Standard Output Stream:
+MOVE 0 13 1|SPEED 1|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (7, 13).
+- Pac 1 moved to (11, 12).
+Inky:
+- Pac 0 moved to (13, 1).
+- Pac 1 used a speed boost.
+Standard Error Stream:
+Parse: 94 128
+Parse: 2
+Parse: 0 1 7 13 ROCK 0 0
+Parse: 1 1 11 12 PAPER 0 0
+Parse: 4
+PP: 7 12 1
+PP: 7 14 1
+PP: 11 13 1
+PP: 11 14 1
+Standard Output Stream:
+MOVE 0 7 14 | MOVE 1 11 13
+118
+131
+Standard Output Stream:
+SPEED 0|MOVE 1 25 10|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (7, 14).
+- Pac 1 moved to (11, 13).
+Inky:
+- Pac 0 used a speed boost.
+- Pac 1 moved to (25, 11).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 1 moved to (25, 10).
+Standard Error Stream:
+Parse: 96 129
+Parse: 2
+Parse: 0 1 7 14 ROCK 0 0
+Parse: 1 1 11 13 PAPER 0 0
+Parse: 6
+PP: 7 12 1
+PP: 10 13 1
+PP: 9 13 1
+PP: 12 13 1
+PP: 13 13 1
+PP: 11 14 1
+Standard Output Stream:
+MOVE 0 7 13 | MOVE 1 11 14
+120
+131
+Standard Output Stream:
+MOVE 0 15 3|MOVE 1 21 13|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (7, 13).
+- Pac 1 moved to (11, 14).
+Inky:
+- Pac 0 moved to (14, 1).
+- Pac 1 moved to (25, 11).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 0 moved to (15, 1).
+- Pac 1 moved to (24, 11).
+Standard Error Stream:
+Parse: 97 129
+Parse: 2
+Parse: 0 1 7 13 ROCK 0 0
+Parse: 1 1 11 14 PAPER 0 0
+Parse: 1
+PP: 7 12 1
+Standard Output Stream:
+MOVE 0 6 13 | MOVE 1 11 13
+122
+131
+Standard Output Stream:
+MOVE 0 15 3|MOVE 1 21 13|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (6, 13).
+- Pac 1 moved to (11, 13).
+Inky:
+- Pac 0 moved to (15, 2).
+- Pac 1 moved to (23, 11).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 0 moved to (15, 3).
+- Pac 1 moved to (22, 11).
+Standard Error Stream:
+Parse: 97 131
+Parse: 2
+Parse: 0 1 6 13 ROCK 0 0
+Parse: 1 1 11 13 PAPER 0 0
+Parse: 4
+PP: 10 13 1
+PP: 9 13 1
+PP: 12 13 1
+PP: 13 13 1
+Standard Output Stream:
+MOVE 0 5 13 | MOVE 1 10 13
+124
+131
+Standard Output Stream:
+MOVE 0 13 3|MOVE 1 21 13|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (5, 13).
+- Pac 1 moved to (10, 13).
+Inky:
+- Pac 0 moved to (14, 3).
+- Pac 1 moved to (21, 11).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
 Inky:
 - Pac 0 moved to (13, 3).
-- Pac 1 moved to (0, 5).
+- Pac 1 moved to (21, 12).
+Standard Error Stream:
+Parse: 98 134
+Parse: 2
+Parse: 0 1 5 13 ROCK 0 0
+Parse: 1 1 10 13 PAPER 0 0
+Parse: 3
+PP: 9 13 1
+PP: 12 13 1
+PP: 13 13 1
+Standard Output Stream:
+MOVE 0 4 13 | MOVE 1 9 13
+126
+131
+Standard Output Stream:
+MOVE 0 13 5|MOVE 1 20 13|
 Game Summary:
-Only Inky still has pacs standing!
-Inky wins with 223 pellets
+Keyser_D_Soze:
+- Pac 0 moved to (4, 13).
+- Pac 1 moved to (9, 13).
+Inky:
+- Pac 0 moved to (13, 4).
+- Pac 1 moved to (21, 13).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 0 moved to (13, 5).
+- Pac 1 moved to (20, 13).
+Standard Error Stream:
+Parse: 99 138
+Parse: 2
+Parse: 0 1 4 13 ROCK 0 0
+Parse: 1 1 9 13 PAPER 0 0
+Parse: 3
+PP: 12 13 1
+PP: 13 13 1
+PP: 9 14 1
+Standard Output Stream:
+MOVE 0 3 13 | MOVE 1 9 14
+128
+131
+Standard Output Stream:
+MOVE 0 11 5|MOVE 1 19 13|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (3, 13).
+- Pac 1 moved to (9, 14).
+Inky:
+- Pac 0 moved to (12, 5).
+- Pac 1 moved to (19, 13).
+Game Summary:
+Only pacs with the SPEED ability enabled can move:
+Inky:
+- Pac 0 moved to (11, 5).
+Standard Error Stream:
+Parse: 100 141
+Parse: 2
+Parse: 0 1 3 13 ROCK 0 0
+Parse: 1 1 9 14 PAPER 0 0
+Parse: 0
+Standard Output Stream:
+MOVE 0 3 12 | MOVE 1 9 13
+130
+131
+Standard Output Stream:
+MOVE 0 11 4|MOVE 1 19 14|
+Game Summary:
+Keyser_D_Soze:
+- Pac 0 moved to (3, 12).
+- Pac 1 moved to (9, 13).
+Inky:
+- Pac 0 moved to (11, 4).
+- Pac 1 moved to (19, 14).
+Game Summary:
+Game Over: Inky has so many pellets that they can't be defeated!
+Inky wins with 143 pellets

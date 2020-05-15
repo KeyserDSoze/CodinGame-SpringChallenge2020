@@ -46,7 +46,7 @@ namespace SpringChallenge2020.Tester
                 manager.Map.AddRow(i, row);
             }
             int count = 0;
-            // game loop
+            // game loop\\
             while (true)
             {
                 manager.NewTurn();
